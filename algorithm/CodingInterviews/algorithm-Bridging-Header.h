@@ -4,3 +4,4 @@
 
 #include "merge-arrays.h"
 #include "linked-list.h"
+#include "binary-tree-iterate.h"

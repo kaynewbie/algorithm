@@ -85,11 +85,13 @@ func testListSwift() {
 
 //testURLEncode()
 
-testListSwift()
+//testListSwift()
+
+testPreOrderCycle()
 
 // 程序执行结束
 group.wait()
-print("Finished!")
+print("\nFinished!")
 
 
 
