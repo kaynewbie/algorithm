@@ -69,6 +69,10 @@ func testURLEncode() {
     testFunc()
 }
 
+func testListSwift() {
+    testList()
+}
+
 //testSingleton()
 
 //testRepeatValue()
@@ -79,8 +83,9 @@ func testURLEncode() {
 
 //testURLEncode()
 
-testURLEncode()
+//testURLEncode()
 
+testListSwift()
 
 // 程序执行结束
 group.wait()

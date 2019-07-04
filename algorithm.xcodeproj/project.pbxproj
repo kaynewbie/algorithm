@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A24B60022CD98CA002B40FD /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B5FF22CD98CA002B40FD /* linked-list.c */; };
 		2A24FFC622C88F5C004743CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FFC522C88F5C004743CB /* main.swift */; };
 		2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FFCD22C8901D004743CB /* Singleton.swift */; };
 		2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A24B5FE22CD98CA002B40FD /* linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linked-list.h"; sourceTree = "<group>"; };
+		2A24B5FF22CD98CA002B40FD /* linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "linked-list.c"; sourceTree = "<group>"; };
 		2A24FFC222C88F5C004743CB /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A24FFC522C88F5C004743CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A24FFCD22C8901D004743CB /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				2AE9D60C22CC5236003E6FAB /* merge-arrays.swift */,
 				2AE9D60F22CC96AE003E6FAB /* merge-arrays.h */,
 				2AE9D61022CC96AE003E6FAB /* merge-arrays.c */,
+				2A24B5FE22CD98CA002B40FD /* linked-list.h */,
+				2A24B5FF22CD98CA002B40FD /* linked-list.c */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
 			path = CodingInterviews;
@@ -151,6 +156,7 @@
 				2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
+				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
 				2AE9D60D22CC5236003E6FAB /* merge-arrays.swift in Sources */,
 			);
