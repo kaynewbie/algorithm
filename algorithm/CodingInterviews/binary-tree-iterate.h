@@ -21,5 +21,8 @@ typedef struct Node {
 }Node;
 
 void testPreOrderCycle(void);
+void testInOrderCycle(void);
+void testPostOrderCycle(void);
+void testMemcpy(void);
 
 #endif /* binary_tree_iterate_h */
