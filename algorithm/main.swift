@@ -87,17 +87,19 @@ func testListSwift() {
 
 //testListSwift()
 
-testPreOrderCycle()
-print("\n")
-testInOrderCycle()
-print("\n")
-testPostOrderCycle()
-print("\n")
-testPreOrderRecursive()
-print("\n")
-testInOrderRecursive()
-print("\n")
-testPostOrderRecursive()
+//testPreOrderCycle()
+//print("\n")
+//testInOrderCycle()
+//print("\n")
+//testPostOrderCycle()
+//print("\n")
+//testPreOrderRecursive()
+//print("\n")
+//testInOrderRecursive()
+//print("\n")
+//testPostOrderRecursive()
+
+testRebuildBinaryTree()
 
 // 程序执行结束
 group.wait()

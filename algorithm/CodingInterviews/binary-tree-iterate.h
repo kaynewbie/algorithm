@@ -21,6 +21,8 @@ typedef struct Node {
     struct Node *rightChild;
 }Node;
 
+void postOrderRecursive(Node *tree);
+
 void testPreOrderCycle(void);
 void testInOrderCycle(void);
 void testPostOrderCycle(void);
