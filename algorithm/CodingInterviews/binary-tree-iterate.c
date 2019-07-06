@@ -68,6 +68,7 @@ Node *createBinaryTree(void) {
     return node6;
 }
 
+// MARK:- 循环
 // MARK: - 循环实现前序遍历
 /**
  循环实现前序遍历。
@@ -189,4 +190,53 @@ void postOrderCycle(Node *tree) {
 void testPostOrderCycle() {
     Node *tree = createBinaryTree();
     postOrderCycle(tree);
+}
+
+// MARK:- 递归
+// MARK:- 递归实现前序遍历
+void preOrderRecursive(Node *tree) {
+    if (tree == NULL) {
+        return;
+    }
+    char *format = "%d ";
+    printf(format, tree->value);
+    preOrderRecursive(tree->leftChild);
+    preOrderRecursive(tree->rightChild);
+}
+void testPreOrderRecursive() {
+    Node *tree = createBinaryTree();
+    printf("递归打印二叉树前序遍历: ");
+    preOrderRecursive(tree);
+}
+
+// MARK:- 递归实现中序遍历
+void inOrderRecursive(Node *tree) {
+    if (tree == NULL) {
+        return;
+    }
+    char *format = "%d ";
+    inOrderRecursive(tree->leftChild);
+    printf(format, tree->value);
+    inOrderRecursive(tree->rightChild);
+}
+void testInOrderRecursive() {
+    Node *tree = createBinaryTree();
+    printf("递归打印二叉树中序遍历: ");
+    inOrderRecursive(tree);
+}
+
+// MARK:- 递归实现后序遍历
+void postOrderRecursive(Node *tree) {
+    if (tree == NULL) {
+        return;
+    }
+    char *format = "%d ";
+    postOrderRecursive(tree->leftChild);
+    postOrderRecursive(tree->rightChild);
+    printf(format, tree->value);
+}
+void testPostOrderRecursive() {
+    Node *tree = createBinaryTree();
+    printf("递归打印二叉树后序遍历: ");
+    postOrderRecursive(tree);
 }

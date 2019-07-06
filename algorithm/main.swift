@@ -92,6 +92,12 @@ print("\n")
 testInOrderCycle()
 print("\n")
 testPostOrderCycle()
+print("\n")
+testPreOrderRecursive()
+print("\n")
+testInOrderRecursive()
+print("\n")
+testPostOrderRecursive()
 
 // 程序执行结束
 group.wait()
