@@ -88,6 +88,10 @@ func testListSwift() {
 //testListSwift()
 
 testPreOrderCycle()
+print("\n")
+testInOrderCycle()
+print("\n")
+testPostOrderCycle()
 
 // 程序执行结束
 group.wait()
