@@ -2,6 +2,13 @@
 #include "stdlib.h"
 #include "string.h"
 
+
+/**
+ 创建栈
+
+ @param memberSize 元素大小
+ @param totalElements 元素数量
+ */
 Stack* createStack(int memberSize, int totalElements) {
     Stack *s = malloc(sizeof(Stack));
     s->top = -1;

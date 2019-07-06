@@ -15,6 +15,7 @@
  树节点结构定义
  */
 typedef struct Node {
+    unsigned long _id;//节点的唯一标识符，可使用节点的地址。
     int value;
     struct Node *leftChild;
     struct Node *rightChild;

@@ -28,18 +28,25 @@ Node *createBinaryTree(void) {
     
     Node *node1 = (Node *)malloc(size);
     node1->value = 1;
+    node1->_id = (int)node1;
     Node *node2 = (Node *)malloc(size);
     node2->value = 2;
+    node2->_id = (int)node2;
     Node *node3 = (Node *)malloc(size);
     node3->value = 3;
+    node3->_id = (int)node3;
     Node *node4 = (Node *)malloc(size);
     node4->value = 4;
+    node4->_id = (int)node4;
     Node *node5 = (Node *)malloc(size);
     node5->value = 5;
+    node5->_id = (int)node5;
     Node *node6 = (Node *)malloc(size);
     node6->value = 6;
+    node6->_id = (int)node6;
     Node *node7 = (Node *)malloc(size);
     node7->value = 10;
+    node7->_id = (int)node7;
     
     node6->leftChild = node4;
     node6->rightChild = node5;
@@ -69,20 +76,22 @@ Node *createBinaryTree(void) {
  因为需要逆向访问右子节点，所以需要借助栈记录未访问右子节点的节点。
  */
 void preOrderCycle(Node *tree) {
-    // 栈存指针而不是结构体
-    int size = sizeof(Node *);
-    Stack *stack = createStack(10, size);
+    // 栈存结构体
+    int size = sizeof(Node);
+    Stack *stack = createStack(size, 10);
     
     Node *current = tree;
     const char *format = "%d ";
+    printf("循环打印二叉树先序遍历: ");
     while (current != NULL || stack->top >= 0) {
         if (current != NULL) {
             printf(format, current->value);
-            stackPush(stack, (void *)&current);
+            stackPush(stack, current);
             current = current->leftChild;
         } else {
-            stackPop(stack, (void *)&current);
-            current = current->rightChild;
+            Node *temp = (Node *)malloc(sizeof(Node));
+            stackPop(stack, temp);
+            current = temp->rightChild;
         }
     }
 }
@@ -103,18 +112,20 @@ void testPreOrderCycle(void) {
  */
 void inOrderCycle(Node *tree) {
     int size = sizeof(Node);
-    Stack *s = createStack(10, size);
+    Stack *s = createStack(size, 10);
     
     Node *current = tree;
     char *format = "%d ";
+    printf("循环打印二叉树中序遍历: ");
     while (current != NULL || s->top >= 0) {
         if (current) {
             stackPush(s, current);
             current = current->leftChild;
         } else {
-            stackPop(s, current);
-            printf(format, current->value);
-            current = current->rightChild;
+            Node *temp = (Node *)malloc(sizeof(Node));
+            stackPop(s, temp);
+            printf(format, temp->value);
+            current = temp->rightChild;
         }
     }
 }
@@ -134,26 +145,39 @@ void testInOrderCycle() {
  父节点和右子节点都要入栈，分别入栈/出栈两次。
  */
 void postOrderCycle(Node *tree) {
-    Stack *s = createStack(10, sizeof(Node *));
+    Stack *s = createStack(sizeof(Node), 10);
     Node *current = tree;
 
+    printf("循环打印二叉树后序遍历: ");
     do {
         while (current) {
             if (current->rightChild) {
-                stackPush(s, &(current->rightChild));
+                stackPush(s, current->rightChild);
             }
-            stackPush(s, &current);
+            stackPush(s, current);
             current = current->leftChild;
         }
-        stackPop(s, (Node *)&current);
-        printf("\ncurrent value1=%d\n", current->value);
-        Node *top = tree;
-        stackTop(s, (Node *)&top);
-        if (current->rightChild && top == current->rightChild) {
-            Node *tmp = NULL;
-            // 弹出右子节点
-            stackPop(s, (Node *)&tmp);
-            stackPush(s, &current);
+        Node *temp = (Node *)malloc(sizeof(Node));
+        stackPop(s, temp);
+        current = temp;
+        
+        Node *top = (Node *)malloc(sizeof(Node));
+        stackTop(s, top);
+        /*
+          必须要判断 top == current->rightChild，因为回溯时，
+         根据栈内是否存在当前节点的右子节点判断，此右子节点是否访问过。
+         
+         问题：当前栈的实现，pop 时，要重新开辟内存用于写入 pop 出的数据，
+         导致无法通过地址判断树中节点和 pop 出的节点是否同一节点。
+         解决：
+            方法一、节点数据结构增加唯一标识；
+            方法二、栈实现时，元素类型用节点地址而不是拷贝数据。
+         */
+        if (current->rightChild && top->_id == current->rightChild->_id) {
+            Node *temp = (Node *)malloc(sizeof(Node));
+            stackPop(s, temp);
+            
+            stackPush(s, current);
             current = current->rightChild;
         } else {
             printf("%d ", current->value);
@@ -165,11 +189,4 @@ void postOrderCycle(Node *tree) {
 void testPostOrderCycle() {
     Node *tree = createBinaryTree();
     postOrderCycle(tree);
-}
-
-void testMemcpy() {
-    const char src[50] = "http://www.tutorialspoint.com";
-    char dest[50];
-    memcpy(dest, src, strlen(src)+1);
-    printf("After memcpy dest = %s\n", dest);
 }
