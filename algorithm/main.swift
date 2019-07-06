@@ -99,7 +99,9 @@ func testListSwift() {
 //print("\n")
 //testPostOrderRecursive()
 
-testRebuildBinaryTree()
+//testRebuildBinaryTree()
+
+testNextNodeInOrder()
 
 // 程序执行结束
 group.wait()

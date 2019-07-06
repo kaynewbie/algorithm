@@ -6,3 +6,4 @@
 #include "linked-list.h"
 #include "binary-tree-iterate.h"
 #include "binary-tree-rebuild.h"
+#include "binary-tree-next-node.h"
