@@ -14,6 +14,7 @@
 		2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */; };
 		2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */; };
 		2A90824022CDD904009E024A /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A90823F22CDD904009E024A /* stack.c */; };
+		2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */; };
 		2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9D61022CC96AE003E6FAB /* merge-arrays.c */; };
 		2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,8 @@
 		2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "find-in-two-dimension-matrix.swift"; sourceTree = "<group>"; };
 		2A90823E22CDD904009E024A /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		2A90823F22CDD904009E024A /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		2ABF209A22D1503D00EE24EF /* binary-tree-next-node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-tree-next-node.h"; sourceTree = "<group>"; };
+		2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-next-node.c"; sourceTree = "<group>"; };
 		2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		2AE9D60F22CC96AE003E6FAB /* merge-arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "merge-arrays.h"; sourceTree = "<group>"; };
 		2AE9D61022CC96AE003E6FAB /* merge-arrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "merge-arrays.c"; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				2A24B60222CDD07F002B40FD /* binary-tree-iterate.c */,
 				2AF60CD022D0752E001B5884 /* binary-tree-rebuild.h */,
 				2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */,
+				2ABF209A22D1503D00EE24EF /* binary-tree-next-node.h */,
+				2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
 			path = CodingInterviews;
@@ -181,6 +186,7 @@
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
 				2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
+				2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
