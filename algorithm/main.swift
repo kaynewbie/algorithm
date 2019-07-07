@@ -101,7 +101,9 @@ func testListSwift() {
 
 //testRebuildBinaryTree()
 
-testNextNodeInOrder()
+//testNextNodeInOrder()
+
+testQueue()
 
 // 程序执行结束
 group.wait()
