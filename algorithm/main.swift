@@ -105,8 +105,8 @@ func testListSwift() {
 
 //testQueue()
 
-//testFibonacciRecursive()
-testFibonacciLoop()
+testFibonacciRecursive()
+//testFibonacciLoop()
 
 // 程序执行结束
 group.wait()

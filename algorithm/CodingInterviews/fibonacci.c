@@ -15,37 +15,35 @@
  */
 
 // MARK:- 循环
-int fibonacciLoop(int n) {
+void fibonacciLoop(int n) {
     int pre = 0;
     int next = 1;
     int result = 0;
-    
-    if (n == 0) {
-        result = pre;
-    } else if (n == 1) {
-        result = next;
-    } else {
-        for (int i = 2; i <= n; i++) {
+
+    for (int i = 0; i < n; i++) {
+        if (i <= 1) {
+            result = i;
+        } else {
             result = pre + next;
             pre = next;
             next = result;
         }
+        printf("%d ", result);
     }
-    return result;
+    printf("\n");
 }
 
 void testFibonacciLoop() {
-    int n = 10;
-    int result = fibonacciLoop(n);
-    printf("resultLoop=%d\n", result);
+    int n;
+    printf("please input a number:");
+    scanf("%d", &n);
+    fibonacciLoop(n);
 }
 
 // MARK:- 递归
 int fibonacciRecursive(int n) {
-    if (n == 0) {
-        return 0;
-    } else if (n == 1) {
-        return 1;
+    if (n <= 1) {
+        return n;
     } else {
         return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
     }
@@ -56,8 +54,12 @@ int fibonacciRecursive(int n) {
     0, 1, 1, 2, 3, 5 ,8, 13, 21, 34, 55...
  */
 void testFibonacciRecursive() {
-    int n = 10;
-    int result = fibonacciRecursive(n);
+    int n;
+    printf("please input a number:");
+    scanf("%d", &n);
     
-    printf("resultRecursive=%d\n", result);
+    for (int i = 0; i <= n; i++) {
+        int result = fibonacciRecursive(i);
+        printf("%d ", result);
+    }
 }
