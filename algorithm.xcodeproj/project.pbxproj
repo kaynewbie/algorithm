@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A24623322D188700091474C /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24623222D188700091474C /* fibonacci.c */; };
 		2A24B60022CD98CA002B40FD /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B5FF22CD98CA002B40FD /* linked-list.c */; };
 		2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B60222CDD07F002B40FD /* binary-tree-iterate.c */; };
 		2A24FFC622C88F5C004743CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FFC522C88F5C004743CB /* main.swift */; };
@@ -34,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A24623122D188700091474C /* fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
+		2A24623222D188700091474C /* fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fibonacci.c; sourceTree = "<group>"; };
 		2A24B5FE22CD98CA002B40FD /* linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "linked-list.h"; sourceTree = "<group>"; };
 		2A24B5FF22CD98CA002B40FD /* linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "linked-list.c"; sourceTree = "<group>"; };
 		2A24B60122CDD07F002B40FD /* binary-tree-iterate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-tree-iterate.h"; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */,
 				2A6A4BBF22D15B5000D8F62C /* queue-support-by-stack.h */,
 				2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */,
+				2A24623122D188700091474C /* fibonacci.h */,
+				2A24623222D188700091474C /* fibonacci.c */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
 			path = CodingInterviews;
@@ -196,6 +201,7 @@
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
 				2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */,
+				2A24623322D188700091474C /* fibonacci.c in Sources */,
 				2A6A4BC422D15EE400D8F62C /* queue.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
 				2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */,
