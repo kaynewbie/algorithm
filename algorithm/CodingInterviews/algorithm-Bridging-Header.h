@@ -10,3 +10,4 @@
 #include "queue.h"
 #include "fibonacci.h"
 #include "binary-search.h"
+#include "quick-sort.h"

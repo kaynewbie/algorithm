@@ -107,7 +107,9 @@ func testListSwift() {
 
 //testFibonacciRecursive();
 
-testBinarySearch()
+//testBinarySearch()
+
+testQuickSort()
 
 // 程序执行结束
 group.wait()
