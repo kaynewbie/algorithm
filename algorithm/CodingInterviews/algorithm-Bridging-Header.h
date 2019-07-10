@@ -9,3 +9,4 @@
 #include "binary-tree-next-node.h"
 #include "queue.h"
 #include "fibonacci.h"
+#include "binary-search.h"
