@@ -109,7 +109,10 @@ func testListSwift() {
 
 //testBinarySearch()
 
-testQuickSort()
+//testQuickSort()
+
+testreversedArray1()
+testreversedArray2()
 
 // 程序执行结束
 group.wait()

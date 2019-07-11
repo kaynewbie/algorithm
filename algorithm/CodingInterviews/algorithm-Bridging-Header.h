@@ -11,3 +11,4 @@
 #include "fibonacci.h"
 #include "binary-search.h"
 #include "quick-sort.h"
+#include "array-reverse.h"

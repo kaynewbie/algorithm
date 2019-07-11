@@ -22,6 +22,7 @@
 		2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9D61022CC96AE003E6FAB /* merge-arrays.c */; };
 		2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF02A9022D692FE00C14446 /* quick-sort.c */; };
 		2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */; };
+		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,8 @@
 		2AF02A9022D692FE00C14446 /* quick-sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "quick-sort.c"; sourceTree = "<group>"; };
 		2AF60CD022D0752E001B5884 /* binary-tree-rebuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-tree-rebuild.h"; sourceTree = "<group>"; };
 		2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-rebuild.c"; sourceTree = "<group>"; };
+		4D794F7422D7211400F4FCDB /* array-reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "array-reverse.h"; sourceTree = "<group>"; };
+		4D794F7522D7211400F4FCDB /* array-reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array-reverse.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				2A24623222D188700091474C /* fibonacci.c */,
 				2AD3680D22D62CDE00F719C2 /* binary-search.h */,
 				2AD3680E22D62CDE00F719C2 /* binary-search.c */,
+				4D794F7422D7211400F4FCDB /* array-reverse.h */,
+				4D794F7522D7211400F4FCDB /* array-reverse.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -218,6 +223,7 @@
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
+				4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */,
 				2AD3680F22D62CDE00F719C2 /* binary-search.c in Sources */,
 				2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */,
 				2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */,
