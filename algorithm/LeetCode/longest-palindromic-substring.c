@@ -56,13 +56,14 @@ char *longestPalindromicSubstring(char *p, int length) {
             left--;
             right++;
         }
-        step = right - 1 - i;
-        if (step * 2 > resultLength) {
-            resultLength = step * 2;
+        step = (right - 1 - i) * 2 + 1;
+        if (step > resultLength) {
+            resultLength = step;
             resultStart = left + 1;
         }
     }
     
+    printf("start=%d, length=%d\n", resultStart, resultLength);
     if (resultLength > 0) {
         char *str = malloc(sizeof(char) * (resultLength + 1));
         memcpy(str, p + resultStart, sizeof(char) * resultLength);
@@ -72,8 +73,12 @@ char *longestPalindromicSubstring(char *p, int length) {
     return NULL;
 }
 
+/*
+ cbbd -> bb
+ babad -> bab
+ */
 void testLongestPalindromicSubstring() {
-    char *str = "babad";
+    char *str = "cbbd";
     int length = 0;
     char *tmp = str;
     while (*(tmp++) != '\0') {
