@@ -18,5 +18,6 @@ int reversedArray(int p[], int length, int target);
 
 void testreversedArray1(void);
 void testreversedArray2(void);
+void testreversedArray3(void);
 
 #endif /* array_reverse_h */
