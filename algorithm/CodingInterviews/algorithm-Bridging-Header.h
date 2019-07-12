@@ -12,3 +12,4 @@
 #include "binary-search.h"
 #include "quick-sort.h"
 #include "array-reverse.h"
+#include "longest-palindromic-substring.h"
