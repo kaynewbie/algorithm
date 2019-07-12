@@ -12,6 +12,7 @@
 		2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B60222CDD07F002B40FD /* binary-tree-iterate.c */; };
 		2A24FFC622C88F5C004743CB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FFC522C88F5C004743CB /* main.swift */; };
 		2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A24FFCD22C8901D004743CB /* Singleton.swift */; };
+		2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A28959D22D86ED1005C9132 /* longest-palindromic-substring.c */; };
 		2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */; };
 		2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
@@ -47,6 +48,8 @@
 		2A24FFC222C88F5C004743CB /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A24FFC522C88F5C004743CB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A24FFCD22C8901D004743CB /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		2A28959C22D86ED1005C9132 /* longest-palindromic-substring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longest-palindromic-substring.h"; sourceTree = "<group>"; };
+		2A28959D22D86ED1005C9132 /* longest-palindromic-substring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-palindromic-substring.c"; sourceTree = "<group>"; };
 		2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "any-repeat-number-in-array.swift"; sourceTree = "<group>"; };
 		2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "find-in-two-dimension-matrix.swift"; sourceTree = "<group>"; };
 		2A6A4BBF22D15B5000D8F62C /* queue-support-by-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "queue-support-by-stack.h"; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 		2A24FFC422C88F5C004743CB /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				2A28959B22D86E12005C9132 /* LeetCode */,
 				2A24FFCC22C88F9C004743CB /* CodingInterviews */,
 				2A24FFC522C88F5C004743CB /* main.swift */,
 			);
@@ -135,6 +139,15 @@
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
 			path = CodingInterviews;
+			sourceTree = "<group>";
+		};
+		2A28959B22D86E12005C9132 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				2A28959C22D86ED1005C9132 /* longest-palindromic-substring.h */,
+				2A28959D22D86ED1005C9132 /* longest-palindromic-substring.c */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 		2A90824122CE003B009E024A /* libs */ = {
@@ -229,6 +242,7 @@
 				2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */,
 				2A24623322D188700091474C /* fibonacci.c in Sources */,
 				2A6A4BC422D15EE400D8F62C /* queue.c in Sources */,
+				2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
 				2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */,
 			);

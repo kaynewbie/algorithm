@@ -112,8 +112,10 @@ func testListSwift() {
 //testQuickSort()
 
 //testreversedArray1()
-testreversedArray2()
-testreversedArray3()
+//testreversedArray2()
+//testreversedArray3()
+
+testLongestPalindromicSubstring()
 
 // 程序执行结束
 group.wait()
