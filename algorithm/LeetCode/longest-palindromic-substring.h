@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 void testLongestPalindromicSubstring(void);
+void testLongestPalindromicSubstringByManacher(void);
 
 #endif /* longest_palindromic_substring_h */

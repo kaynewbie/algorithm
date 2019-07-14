@@ -94,3 +94,86 @@ void testLongestPalindromicSubstring() {
     }
     printf("Done\n");
 }
+
+/*
+ 参考：https://segmentfault.com/a/1190000002991199#articleHeader14
+ */
+
+//MARK:- 方法二、Manacher 算法
+
+/**
+ 格式化原字符串，如，aaba -> $#a#a#b#a#^
+ */
+char *formatString(char s[], int length) {
+    int l = length * 2 + 3;
+    char *tmp = malloc(sizeof(char) * l);
+    
+    tmp[0] = '$';
+    tmp[l - 1] = '^';
+    for (int i = 0; i < length; i++) {
+        tmp[i * 2 + 1] = '#';
+        tmp[i * 2 + 2] = s[i];
+    }
+    tmp[l - 2] = '#';
+    
+//    printf("new string:\n");
+//    for (int i = 0; i < l; i++) {
+//        printf("%c\n", *(tmp + i));
+//    }
+    
+    return tmp;
+}
+
+char *longestPalindromicSubstringByManacher(char *s, int length) {
+    char *newStr = formatString(s, length);
+    int newLength = length * 2 + 3;
+    
+    int p[newLength];
+    memset(p, 0, sizeof(int) * newLength);
+    
+    int mx = 0, id = 0;
+    int tmp;
+    for (int i = 1; i < newLength - 1; i++) {
+        tmp = p[2 * id - i] > mx - i ? mx - i : p[2 * id - i];
+        p[i] = mx > i ? tmp : 1;
+        while (*(newStr + (i + p[i])) == *(newStr + (i - p[i]))) {
+            p[i]++;
+        }
+        if (i + p[i] > mx) {
+            mx = i + p[i];
+            id = i;
+        }
+    }
+    
+    int max = 0, index = 0;
+    for (int i = 1; i < newLength - 1; i++) {
+        if (p[i] > max) {
+            max = p[i];
+            index = i;
+        }
+    }
+    
+    char *str = malloc(sizeof(char) * max);
+    int start = (index - max) / 2;
+    memcpy(str, s + start, sizeof(char) * (max - 1));
+    *(str + max - 1) = '\0';
+    return str;
+}
+
+void testLongestPalindromicSubstringByManacher(void) {
+    char *str = "abbd";
+    int length = 0;
+    char *tmp = str;
+    while (*(tmp++) != '\0') {
+        length++;
+    }
+    
+    printf("result:\n");
+    char *result = longestPalindromicSubstringByManacher(str, length);
+    
+    char *p = result;
+    while (p != NULL && *p != '\0') {
+        printf("%c\n", *(p++));
+    }
+    printf("Done\n");
+}
