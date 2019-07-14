@@ -94,3 +94,7 @@ void testLongestPalindromicSubstring() {
     }
     printf("Done\n");
 }
+
+/*
+ 参考：https://segmentfault.com/a/1190000002991199#articleHeader14
+ */
