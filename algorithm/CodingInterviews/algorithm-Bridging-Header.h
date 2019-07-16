@@ -16,3 +16,4 @@
 #include "backtracking.h"
 #include "reverse-integer.h"
 #include "padrome-number.h"
+#include "robot-moving-range.h"
