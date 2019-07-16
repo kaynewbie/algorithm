@@ -118,11 +118,11 @@ func testListSwift() {
 //testLongestPalindromicSubstring()
 //testLongestPalindromicSubstringByManacher()
 
-//testBacktracking()
+testBacktracking()
 
 //testReverse()
 
-testIsPalindrome()
+//testIsPalindrome()
 
 // 程序执行结束
 group.wait()

@@ -55,15 +55,15 @@ bool hasPathCore(char *matrix, int rows, int cols, int row,
     }
     
     bool hasPath = false;
-    bool inMatrix = row >= 0 && row <= rows && col >= 0 && col <= cols;
-    while (inMatrix && !visited[row * cols + col] && matrix[row * cols + col] == path[pathLen]) {
+    bool inMatrix = row >= 0 && row < rows && col >= 0 && col < cols;
+    if (inMatrix && !visited[row * cols + col] && matrix[row * cols + col] == path[pathLen]) {
         pathLen++;
         printf("current visit ele: %d, path length: %d\n", row * cols + col, pathLen);
         visited[row * cols + col] = true;
         hasPath = hasPathCore(matrix, rows, cols, row, col - 1, path, pathLen, visited)
         || hasPathCore(matrix, rows, cols, row - 1, col, path, pathLen, visited)
         || hasPathCore(matrix, rows, cols, row + 1, col, path, pathLen, visited)
-        || hasPathCore(matrix, rows, cols, row, col + 1, path, pathLen, visited);
+        || hasPathCore(matrix, rows, cols, row, col + 1, path, pathLen, visited);        
     }
     return hasPath;
 }
@@ -77,12 +77,13 @@ bool hasPathCore(char *matrix, int rows, int cols, int row,
  */
 void testBacktracking(void) {
     int length = 0;
-    char matrix[] = "abcdefjhijkl";
+//    char matrix[] = "abcdefjhijkl";
+    char matrix[] = "abcdefgjijgadhoxyz";
     char *p = matrix;
     while (*(p + length) != '\0') {
         length++;
     }
-    char *path = "abfjh";
-    bool result = hasPath(matrix, 3, 4, path);
+    char *path = "cijgy";
+    bool result = hasPath(matrix, 3, 6, path);
     printf("Backtracking result=%d\n", result);
 }
