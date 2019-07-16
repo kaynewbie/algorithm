@@ -14,3 +14,4 @@
 #include "array-reverse.h"
 #include "longest-palindromic-substring.h"
 #include "backtracking.h"
+#include "reverse-integer.h"
