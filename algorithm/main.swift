@@ -120,7 +120,9 @@ func testListSwift() {
 
 //testBacktracking()
 
-testReverse()
+//testReverse()
+
+testIsPalindrome()
 
 // 程序执行结束
 group.wait()
