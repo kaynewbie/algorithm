@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 void testReverse(void);
+int reverse(int x);
 
 #endif /* reverse_integer_h */
