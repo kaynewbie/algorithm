@@ -8,9 +8,14 @@
 
 #include "reverse-integer.h"
 #include "math.h"
+#include "limits.h"
 
 /*
  Given a 32-bit signed integer, reverse digits of an integer.
+ 
+ Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1].
+ For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+
  
  Example 1:
  Input: 123
@@ -25,27 +30,37 @@
  Output: 21
  */
 
-int reverseCore(int x, int *length) {
+long reverseCore(long x, int *length) {
     if (x < 10) {
         return x;
     }
-    int remainder = x % 10;
-    int quotient = x / 10;
+    long remainder = x % 10;
+    long quotient = x / 10;
     
-    int value = reverseCore(quotient, length);
-    int current = remainder * (int)pow(10, ++(*length));
+    long value = reverseCore(quotient, length);
+    long current = remainder * (long)pow(10, ++(*length));
     return current + value;
 }
 
 int reverse(int x) {
     int length = 0;
     int sign = x >= 0 ? 1 : -1;
-    int result = sign * reverseCore(sign * x, &length);
-    return result;
+    long result = sign * reverseCore(sign * (long)x, &length);
+    if (result >= INT_MIN && result <= INT_MAX) {
+        return (int)result;
+    } else {
+        return 0;
+    }
 }
 
+/*
+ 例子1：1534236469 -> 1056389759，翻转的时候可能超出范围。
+ 例子2：-2147483648 -> 0 如果直接取反，超出 32 位
+ 32 bits range: [-2147483648, 2147483647]
+ LeetCode 上错误错误记录：https://leetcode.com/problems/reverse-integer/submissions/
+ */
 void testReverse(void) {
-    int target = -0;
+    int target = INT_MIN;
     int result = reverse(target);
     printf("result=%d\n", result);
 }
