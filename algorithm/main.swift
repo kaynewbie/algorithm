@@ -124,7 +124,9 @@ func testListSwift() {
 
 //testIsPalindrome()
 
-testRobotMovingRange()
+//testRobotMovingRange()
+
+testRomainToInt()
 
 // 程序执行结束
 group.wait()

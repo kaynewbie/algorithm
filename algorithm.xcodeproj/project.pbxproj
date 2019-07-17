@@ -28,6 +28,7 @@
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
+		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,8 @@
 		4D794F7522D7211400F4FCDB /* array-reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array-reverse.c"; sourceTree = "<group>"; };
 		4DE9D3EB22DDBA2100097FEE /* padrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "padrome-number.h"; sourceTree = "<group>"; };
 		4DE9D3EC22DDBA2100097FEE /* padrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "padrome-number.c"; sourceTree = "<group>"; };
+		4DE9D3EE22DDC11100097FEE /* roman-to-int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roman-to-int.h"; sourceTree = "<group>"; };
+		4DE9D3EF22DDC11100097FEE /* roman-to-int.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "roman-to-int.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,8 @@
 				4D41EB3722DD6E250081EDE4 /* reverse-integer.c */,
 				4DE9D3EB22DDBA2100097FEE /* padrome-number.h */,
 				4DE9D3EC22DDBA2100097FEE /* padrome-number.c */,
+				4DE9D3EE22DDC11100097FEE /* roman-to-int.h */,
+				4DE9D3EF22DDC11100097FEE /* roman-to-int.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */,
 				2A24623322D188700091474C /* fibonacci.c in Sources */,
 				4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */,
+				4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */,
 				2A6A4BC422D15EE400D8F62C /* queue.c in Sources */,
 				2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
