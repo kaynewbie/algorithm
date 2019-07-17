@@ -19,4 +19,4 @@
 #include "robot-moving-range.h"
 #include "roman-to-int.h"
 #include "longest-common-prefix.h"
-#include "cut-rope-dynamic-plan.h"
+#include "cut-rope.h"

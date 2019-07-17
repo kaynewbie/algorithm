@@ -6,11 +6,11 @@
 //  Copyright © 2019 kai. All rights reserved.
 //
 
-#ifndef cut_rope_dynamic_plan_h
-#define cut_rope_dynamic_plan_h
+#ifndef cut_rope_h
+#define cut_rope_h
 
 #include <stdio.h>
 
 void testMaxProduct(void);
 
-#endif /* cut_rope_dynamic_plan_h */
+#endif /* cut_rope_h */
