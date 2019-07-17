@@ -18,6 +18,7 @@
 		2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
 		2A6A4BC422D15EE400D8F62C /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC322D15EE400D8F62C /* queue.c */; };
+		2A802C9D22DFD5070096AD3E /* cut-rope-dynamic-plan.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope-dynamic-plan.c */; };
 		2A90824022CDD904009E024A /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A90823F22CDD904009E024A /* stack.c */; };
 		2AB4F55022DBECF20028A50C /* backtracking.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4F54F22DBECF20028A50C /* backtracking.c */; };
 		2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */; };
@@ -64,6 +65,8 @@
 		2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "queue-support-by-stack.c"; sourceTree = "<group>"; };
 		2A6A4BC222D15EE400D8F62C /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		2A6A4BC322D15EE400D8F62C /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		2A802C9B22DFD5070096AD3E /* cut-rope-dynamic-plan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cut-rope-dynamic-plan.h"; sourceTree = "<group>"; };
+		2A802C9C22DFD5070096AD3E /* cut-rope-dynamic-plan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cut-rope-dynamic-plan.c"; sourceTree = "<group>"; };
 		2A90823E22CDD904009E024A /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		2A90823F22CDD904009E024A /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		2AB4F54E22DBECF20028A50C /* backtracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = backtracking.h; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 				2AB4F54F22DBECF20028A50C /* backtracking.c */,
 				2A1FF2B922DE009400694CC2 /* robot-moving-range.h */,
 				2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */,
+				2A802C9B22DFD5070096AD3E /* cut-rope-dynamic-plan.h */,
+				2A802C9C22DFD5070096AD3E /* cut-rope-dynamic-plan.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -275,6 +280,7 @@
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				2AB4F55022DBECF20028A50C /* backtracking.c in Sources */,
+				2A802C9D22DFD5070096AD3E /* cut-rope-dynamic-plan.c in Sources */,
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
 				4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */,
 				2AD3680F22D62CDE00F719C2 /* binary-search.c in Sources */,
