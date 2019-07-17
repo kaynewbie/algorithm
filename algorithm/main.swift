@@ -126,7 +126,9 @@ func testListSwift() {
 
 //testRobotMovingRange()
 
-testRomainToInt()
+//testRomainToInt()
+
+testLongestCommonPrefix()
 
 // 程序执行结束
 group.wait()

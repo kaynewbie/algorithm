@@ -26,6 +26,7 @@
 		2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF02A9022D692FE00C14446 /* quick-sort.c */; };
 		2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */; };
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
+		4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */; };
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
 		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
@@ -80,6 +81,8 @@
 		2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-rebuild.c"; sourceTree = "<group>"; };
 		4D41EB3622DD6E250081EDE4 /* reverse-integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reverse-integer.h"; sourceTree = "<group>"; };
 		4D41EB3722DD6E250081EDE4 /* reverse-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "reverse-integer.c"; sourceTree = "<group>"; };
+		4D6F993B22DECD0900F942F5 /* longest-common-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longest-common-prefix.h"; sourceTree = "<group>"; };
+		4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-common-prefix.c"; sourceTree = "<group>"; };
 		4D794F7422D7211400F4FCDB /* array-reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "array-reverse.h"; sourceTree = "<group>"; };
 		4D794F7522D7211400F4FCDB /* array-reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array-reverse.c"; sourceTree = "<group>"; };
 		4DE9D3EB22DDBA2100097FEE /* padrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "padrome-number.h"; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 				4DE9D3EC22DDBA2100097FEE /* padrome-number.c */,
 				4DE9D3EE22DDC11100097FEE /* roman-to-int.h */,
 				4DE9D3EF22DDC11100097FEE /* roman-to-int.c */,
+				4D6F993B22DECD0900F942F5 /* longest-common-prefix.h */,
+				4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */,
 				4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */,
 				2A24623322D188700091474C /* fibonacci.c in Sources */,
+				4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */,
 				4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */,
 				4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */,
 				2A6A4BC422D15EE400D8F62C /* queue.c in Sources */,
