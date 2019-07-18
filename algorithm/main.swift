@@ -128,11 +128,11 @@ func testListSwift() {
 
 //testRomainToInt()
 
-//testLongestCommonPrefix()
+testLongestCommonPrefix()
 
 //testMaxProduct()
 
-testReverseSingleDirectionList()
+//testReverseSingleDirectionList()
 
 // 程序执行结束
 group.wait()

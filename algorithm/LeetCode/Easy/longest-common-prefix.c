@@ -18,18 +18,21 @@
  */
 
 char *longestCommonPrefix(char ** strs, int strsSize){
+    if (strsSize <= 0) {
+        return "";
+    }
     int capacity = 5;
     char *pInFirstStr = *strs;
-    char *result = malloc(sizeof(char) * capacity);
+//    char *result = malloc(sizeof(char) * capacity);
+    char *result = calloc(capacity, sizeof(char));
     int idx = 0;
     
     int i;
     char c;
     bool success;
     while (*(pInFirstStr + idx) != '\0') {
-        printf("current char: %c\n", *(pInFirstStr + idx));
         success = true;
-        for (i = 0; i < strsSize; i++) {
+        for (i = 1; i < strsSize; i++) {
             c = *(*(strs + i) + idx);
             if (*(pInFirstStr + idx) != c) {
                 success = false;
@@ -41,9 +44,9 @@ char *longestCommonPrefix(char ** strs, int strsSize){
         }
         if (idx >= capacity) {//extent
             capacity += 10;
-            result = realloc(result, capacity);
+            result = (char *)realloc(result, capacity);
         }
-        result[idx] = *(pInFirstStr + idx);
+        *(result + idx) = *(pInFirstStr + idx);
         idx++;
     }
     return result;
@@ -89,10 +92,22 @@ void testLongestCommonPrefix4() {
     printf("prefix: %s\n", prefix);
 }
 
+void testLongestCommonPrefix5() {    
+    int length = 20;
+    char *strs[length];
+    for (int i = 0; i < length; i++) {
+        char *str = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        strs[i] = str;
+    }
+    char *prefix = longestCommonPrefix(strs, 4);
+    printf("prefix: %s\n", prefix);
+}
+
 void testLongestCommonPrefix(void) {
     testLongestCommonPrefix1();
     testLongestCommonPrefix2();
     testLongestCommonPrefix3();
     testLongestCommonPrefix4();
+    testLongestCommonPrefix5();
     printf("=====%d\n", '\0');
 }
