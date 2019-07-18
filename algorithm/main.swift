@@ -136,7 +136,10 @@ func testListSwift() {
 
 //testCountOneInBinaryNum()
 
-testPower()
+//testPower()
+
+//testIncrement()
+testPrint1ToMaxOfN()
 
 // 程序执行结束
 group.wait()
