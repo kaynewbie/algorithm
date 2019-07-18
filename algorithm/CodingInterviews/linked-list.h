@@ -11,6 +11,17 @@
 
 #include <stdio.h>
 
+/*
+ 链表操作：增、删、查
+ */
+typedef struct ListNode {
+    int value;
+    struct ListNode *next;
+} ListNode;
+
 void testList(void);
+ListNode *reverseList(ListNode **list);
+
+void testReverseSingleDirectionList(void);
 
 #endif /* linked_list_h */

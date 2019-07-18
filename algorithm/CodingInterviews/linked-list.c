@@ -10,13 +10,6 @@
 #include "stdbool.h"
 #include "stdlib.h"
 
-/*
- 链表操作：增、删、查
- */
-typedef struct ListNode {
-    int value;
-    struct ListNode *next;
-} ListNode;
 
 /**
  打印链表
@@ -117,4 +110,59 @@ void testList(void) {
     removeNode(p, 61);
     
     printList(list);
+}
+
+ListNode *reverseListCore(ListNode *node, ListNode **head) {
+    if (node->next == NULL) {
+        *head = node;
+        return node;
+    }
+    ListNode *nextNode = reverseListCore(node->next, head);
+    nextNode->next = node;
+    return node;
+}
+
+/**
+ 逆转单向链表，要求空间复杂度 O(1)
+ */
+ListNode *reverseList(ListNode **list) {
+    if (*list == NULL) {
+        return NULL;
+    }
+    ListNode *result = reverseListCore(*list, list);
+    result->next = NULL;
+    
+    return *list;
+}
+
+void testReverseSingleDirectionList1() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    insertNode(p, 23);
+    insertNode(p, 24);
+    insertNode(p, 6);
+    insertNode(p, 3);
+    insertNode(p, 2);
+    
+    printf("\n----------testReverseSingleDirectionList1------------\n");
+    printList(list);
+    printf("\n--------- reverse -------------\n");
+    ListNode *result = reverseList(p);
+    printList(result);
+}
+
+void testReverseSingleDirectionList2() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    printf("\n----------testReverseSingleDirectionList2------------\n");
+    printList(list);
+    ListNode *result = reverseList(p);
+    printf("\n--------- reverse -------------\n");
+    printList(result);
+}
+
+void testReverseSingleDirectionList(void) {
+    testReverseSingleDirectionList1();
+    testReverseSingleDirectionList2();
 }

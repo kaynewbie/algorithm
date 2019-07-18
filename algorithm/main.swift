@@ -130,7 +130,9 @@ func testListSwift() {
 
 //testLongestCommonPrefix()
 
-testMaxProduct()
+//testMaxProduct()
+
+testReverseSingleDirectionList()
 
 // 程序执行结束
 group.wait()
