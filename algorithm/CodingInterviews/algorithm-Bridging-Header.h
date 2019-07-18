@@ -20,3 +20,4 @@
 #include "roman-to-int.h"
 #include "longest-common-prefix.h"
 #include "cut-rope.h"
+#include "bit-operation.h"
