@@ -134,7 +134,9 @@ func testListSwift() {
 
 //testReverseSingleDirectionList()
 
-testCountOneInBinaryNum()
+//testCountOneInBinaryNum()
+
+testPower()
 
 // 程序执行结束
 group.wait()

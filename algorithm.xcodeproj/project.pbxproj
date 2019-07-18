@@ -21,6 +21,7 @@
 		2A6A4BC422D15EE400D8F62C /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC322D15EE400D8F62C /* queue.c */; };
 		2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope.c */; };
 		2A90824022CDD904009E024A /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A90823F22CDD904009E024A /* stack.c */; };
+		2AA5532822E11FE700F93554 /* power.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5532722E11FE700F93554 /* power.c */; };
 		2AB4F55022DBECF20028A50C /* backtracking.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4F54F22DBECF20028A50C /* backtracking.c */; };
 		2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */; };
 		2AD3680F22D62CDE00F719C2 /* binary-search.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3680E22D62CDE00F719C2 /* binary-search.c */; };
@@ -72,6 +73,8 @@
 		2A802C9C22DFD5070096AD3E /* cut-rope.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cut-rope.c"; sourceTree = "<group>"; };
 		2A90823E22CDD904009E024A /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		2A90823F22CDD904009E024A /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		2AA5532622E11FE700F93554 /* power.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = power.h; sourceTree = "<group>"; };
+		2AA5532722E11FE700F93554 /* power.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power.c; sourceTree = "<group>"; };
 		2AB4F54E22DBECF20028A50C /* backtracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = backtracking.h; sourceTree = "<group>"; };
 		2AB4F54F22DBECF20028A50C /* backtracking.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = backtracking.c; sourceTree = "<group>"; };
 		2ABF209A22D1503D00EE24EF /* binary-tree-next-node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-tree-next-node.h"; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 				2A802C9C22DFD5070096AD3E /* cut-rope.c */,
 				2A0FE10522E0AE9400F66F6A /* bit-operation.h */,
 				2A0FE10622E0AE9400F66F6A /* bit-operation.c */,
+				2AA5532622E11FE700F93554 /* power.h */,
+				2AA5532722E11FE700F93554 /* power.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -281,6 +286,7 @@
 				2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */,
 				2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
+				2AA5532822E11FE700F93554 /* power.c in Sources */,
 				2A90824022CDD904009E024A /* stack.c in Sources */,
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
