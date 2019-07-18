@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FE10622E0AE9400F66F6A /* bit-operation.c */; };
 		2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */; };
 		2A24623322D188700091474C /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24623222D188700091474C /* fibonacci.c */; };
 		2A24B60022CD98CA002B40FD /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B5FF22CD98CA002B40FD /* linked-list.c */; };
@@ -46,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A0FE10522E0AE9400F66F6A /* bit-operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bit-operation.h"; sourceTree = "<group>"; };
+		2A0FE10622E0AE9400F66F6A /* bit-operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bit-operation.c"; sourceTree = "<group>"; };
 		2A1FF2B922DE009400694CC2 /* robot-moving-range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "robot-moving-range.h"; sourceTree = "<group>"; };
 		2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "robot-moving-range.c"; sourceTree = "<group>"; };
 		2A24623122D188700091474C /* fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */,
 				2A802C9B22DFD5070096AD3E /* cut-rope.h */,
 				2A802C9C22DFD5070096AD3E /* cut-rope.c */,
+				2A0FE10522E0AE9400F66F6A /* bit-operation.h */,
+				2A0FE10622E0AE9400F66F6A /* bit-operation.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -279,6 +284,7 @@
 				2A90824022CDD904009E024A /* stack.c in Sources */,
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
+				2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */,
 				2AB4F55022DBECF20028A50C /* backtracking.c in Sources */,
 				2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */,
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
