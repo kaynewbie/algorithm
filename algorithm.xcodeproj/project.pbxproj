@@ -32,6 +32,7 @@
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
 		4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */; };
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
+		4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
 		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
 /* End PBXBuildFile section */
@@ -97,6 +98,8 @@
 		4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-common-prefix.c"; sourceTree = "<group>"; };
 		4D794F7422D7211400F4FCDB /* array-reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "array-reverse.h"; sourceTree = "<group>"; };
 		4D794F7522D7211400F4FCDB /* array-reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array-reverse.c"; sourceTree = "<group>"; };
+		4DC96C1622E1635B00BE37E5 /* valid-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "valid-parentheses.h"; sourceTree = "<group>"; };
+		4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "valid-parentheses.c"; sourceTree = "<group>"; };
 		4DE9D3EB22DDBA2100097FEE /* padrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "padrome-number.h"; sourceTree = "<group>"; };
 		4DE9D3EC22DDBA2100097FEE /* padrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "padrome-number.c"; sourceTree = "<group>"; };
 		4DE9D3EE22DDC11100097FEE /* roman-to-int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roman-to-int.h"; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				4DE9D3EF22DDC11100097FEE /* roman-to-int.c */,
 				4D6F993B22DECD0900F942F5 /* longest-common-prefix.h */,
 				4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */,
+				4DC96C1622E1635B00BE37E5 /* valid-parentheses.h */,
+				4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2AA5532822E11FE700F93554 /* power.c in Sources */,
 				2A90824022CDD904009E024A /* stack.c in Sources */,
+				4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */,
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */,

@@ -139,7 +139,9 @@ func testListSwift() {
 //testPower()
 
 //testIncrement()
-testPrint1ToMaxOfN()
+//testPrint1ToMaxOfN()
+
+testIsValid()
 
 // 程序执行结束
 group.wait()
