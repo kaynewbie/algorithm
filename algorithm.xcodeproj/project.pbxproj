@@ -17,6 +17,7 @@
 		2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A28959D22D86ED1005C9132 /* longest-palindromic-substring.c */; };
 		2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */; };
 		2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */; };
+		2A476AC222E2FD2600B54349 /* question-19.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A476AC122E2FD2600B54349 /* question-19.c */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
 		2A6A4BC422D15EE400D8F62C /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC322D15EE400D8F62C /* queue.c */; };
 		2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope.c */; };
@@ -67,6 +68,8 @@
 		2A28959D22D86ED1005C9132 /* longest-palindromic-substring.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-palindromic-substring.c"; sourceTree = "<group>"; };
 		2A3CC0B622C8E7D500896290 /* any-repeat-number-in-array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "any-repeat-number-in-array.swift"; sourceTree = "<group>"; };
 		2A40413B22CB3660007B4036 /* find-in-two-dimension-matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "find-in-two-dimension-matrix.swift"; sourceTree = "<group>"; };
+		2A476AC022E2FD2600B54349 /* question-19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-19.h"; sourceTree = "<group>"; };
+		2A476AC122E2FD2600B54349 /* question-19.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-19.c"; sourceTree = "<group>"; };
 		2A6A4BBF22D15B5000D8F62C /* queue-support-by-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "queue-support-by-stack.h"; sourceTree = "<group>"; };
 		2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "queue-support-by-stack.c"; sourceTree = "<group>"; };
 		2A6A4BC222D15EE400D8F62C /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				2AA5532722E11FE700F93554 /* power.c */,
 				2AA5532922E12CB700F93554 /* question-17.h */,
 				2AA5532A22E12CB700F93554 /* question-17.c */,
+				2A476AC022E2FD2600B54349 /* question-19.h */,
+				2A476AC122E2FD2600B54349 /* question-19.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -291,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A476AC222E2FD2600B54349 /* question-19.c in Sources */,
 				2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */,
 				2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */,
 				2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */,

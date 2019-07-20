@@ -143,7 +143,9 @@ func testListSwift() {
 
 //testIsValid()
 
-testDeleteNode()
+//testDeleteNode()
+
+testMatch()
 
 // 程序执行结束
 group.wait()
