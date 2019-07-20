@@ -29,9 +29,9 @@ void printList(ListNode *list) {
  @param p 指向指针的指针。因为链表可能为空，需要改变指向链表的指针指向。
  @param value 新增节点的值。
  */
-void insertNode(ListNode **p, int value) {
+ListNode *insertNode(ListNode **p, int value) {
     if (p == NULL) {
-        return;
+        return NULL;
     }
     ListNode *newNode;
     newNode = (ListNode *)malloc(sizeof(ListNode));
@@ -48,6 +48,7 @@ void insertNode(ListNode **p, int value) {
         }
         currentNode->next = newNode;
     }
+    return newNode;
 }
 
 /**
@@ -133,6 +134,83 @@ ListNode *reverseList(ListNode **list) {
     result->next = NULL;
     
     return *list;
+}
+
+//MARK:- O(1)复杂度删除节点
+void deleteNode(ListNode **list, ListNode *node) {
+    if (list == NULL || *list == NULL || node == NULL) {
+        return;
+    }
+    if (node->next == NULL) {
+        removeNode(list, node->value);
+    } else {
+        ListNode *nextNode = node->next;
+        node->value = nextNode->value;
+        node->next = nextNode->next;
+        free(nextNode);
+        nextNode = NULL;
+    }
+}
+
+/**
+ list: NULL
+ delete: NULL
+ result: NULL
+ */
+void testDeleteNode1() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    deleteNode(p, NULL);
+    printList(list);
+}
+
+/**
+ list: 23 -> NULL
+ delete: 23
+ result: NULL
+ */
+void testDeleteNode2() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    ListNode *inserted = insertNode(p, 23);
+    deleteNode(p, inserted);
+    printList(list);
+}
+
+/**
+ list: 23 -> 24 -> NULL
+ delete: 23
+ result: 24 -> NULL
+ */
+void testDeleteNode3() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    ListNode *inserted23 = insertNode(p, 23);
+    insertNode(p, 24);
+    deleteNode(p, inserted23);
+    printList(list);
+}
+
+/**
+ list: 23 -> 24 -> 6 -> NULL
+ delete: 6
+ result: 23 -> 24 -> NULL
+ */
+void testDeleteNode4() {
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    insertNode(p, 23);
+    insertNode(p, 24);
+    ListNode *inserted6 = insertNode(p, 6);
+    deleteNode(p, inserted6);
+    printList(list);
+}
+
+void testDeleteNode(void) {
+    testDeleteNode1();
+    testDeleteNode2();
+    testDeleteNode3();
+    testDeleteNode4();
 }
 
 void testReverseSingleDirectionList1() {
