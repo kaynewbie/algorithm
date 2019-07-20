@@ -141,7 +141,9 @@ func testListSwift() {
 //testIncrement()
 //testPrint1ToMaxOfN()
 
-testIsValid()
+//testIsValid()
+
+testDeleteNode()
 
 // 程序执行结束
 group.wait()

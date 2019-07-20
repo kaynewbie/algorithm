@@ -23,5 +23,6 @@ void testList(void);
 ListNode *reverseList(ListNode **list);
 
 void testReverseSingleDirectionList(void);
+void testDeleteNode(void);
 
 #endif /* linked_list_h */
