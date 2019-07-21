@@ -149,7 +149,9 @@ func testListSwift() {
 
 //testIsNumeric()
 
-testReorderArray()
+//testReorderArray()
+
+testFindKthNodeFormTail()
 
 // 程序执行结束
 group.wait()

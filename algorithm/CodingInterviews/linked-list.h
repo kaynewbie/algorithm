@@ -21,6 +21,8 @@ typedef struct ListNode {
 
 void testList(void);
 ListNode *reverseList(ListNode **list);
+void printList(ListNode *list);
+ListNode *insertNode(ListNode **p, int value);
 
 void testReverseSingleDirectionList(void);
 void testDeleteNode(void);
