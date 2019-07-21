@@ -145,7 +145,9 @@ func testListSwift() {
 
 //testDeleteNode()
 
-testMatch()
+//testMatch()
+
+testIsNumeric()
 
 // 程序执行结束
 group.wait()
