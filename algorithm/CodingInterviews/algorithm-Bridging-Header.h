@@ -25,3 +25,4 @@
 #include "question-17.h"
 #include "valid-parentheses.h"
 #include "question-19.h"
+#include "question-20.h"
