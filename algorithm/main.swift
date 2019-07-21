@@ -147,7 +147,9 @@ func testListSwift() {
 
 //testMatch()
 
-testIsNumeric()
+//testIsNumeric()
+
+testReorderArray()
 
 // 程序执行结束
 group.wait()
