@@ -151,7 +151,9 @@ func testListSwift() {
 
 //testReorderArray()
 
-testFindKthNodeFormTail()
+//testFindKthNodeFormTail()
+
+testMergeTwoLists()
 
 // 程序执行结束
 group.wait()
