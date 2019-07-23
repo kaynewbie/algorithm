@@ -155,7 +155,9 @@ func testListSwift() {
 
 //testMergeTwoLists()
 
-testRemoveDuplicates()
+//testRemoveDuplicates()
+
+testRemoveElement()
 
 // 程序执行结束
 group.wait()

@@ -30,3 +30,4 @@
 #include "question-22.h"
 #include "merge-two-sorted-lists.h"
 #include "remove-duplicates-from-sorted-array.h"
+#include "remove-element.h"

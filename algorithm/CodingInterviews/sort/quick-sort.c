@@ -81,7 +81,7 @@ void quickSort(int *p, int start, int end) {
 int *randomArray(int length, int range) {
     int *p = malloc(sizeof(int) * length);
 
-    srand(time(0));
+    srand((unsigned int)time(0));
     
     int value;
     for (int i = 0; i < length; i++) {

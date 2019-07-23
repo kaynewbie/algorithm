@@ -41,6 +41,7 @@
 		4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
 		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
+		4DEFCD9822E6AE1B00A34052 /* remove-element.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFCD9722E6AE1B00A34052 /* remove-element.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -122,6 +123,8 @@
 		4DE9D3EC22DDBA2100097FEE /* padrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "padrome-number.c"; sourceTree = "<group>"; };
 		4DE9D3EE22DDC11100097FEE /* roman-to-int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roman-to-int.h"; sourceTree = "<group>"; };
 		4DE9D3EF22DDC11100097FEE /* roman-to-int.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "roman-to-int.c"; sourceTree = "<group>"; };
+		4DEFCD9622E6AE1B00A34052 /* remove-element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remove-element.h"; sourceTree = "<group>"; };
+		4DEFCD9722E6AE1B00A34052 /* remove-element.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "remove-element.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +262,8 @@
 				4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */,
 				4D70B54822E69DB200556D0C /* remove-duplicates-from-sorted-array.h */,
 				4D70B54922E69DB200556D0C /* remove-duplicates-from-sorted-array.c */,
+				4DEFCD9622E6AE1B00A34052 /* remove-element.h */,
+				4DEFCD9722E6AE1B00A34052 /* remove-element.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -336,6 +341,7 @@
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */,
+				4DEFCD9822E6AE1B00A34052 /* remove-element.c in Sources */,
 				2AB4F55022DBECF20028A50C /* backtracking.c in Sources */,
 				2AEF491822E3FD8300DB3D80 /* question-20.c in Sources */,
 				2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */,
