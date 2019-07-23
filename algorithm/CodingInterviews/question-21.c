@@ -60,9 +60,9 @@ static bool isEven(int n) {
     return (n & 0x1) == 0;
 }
 
-static bool isPositive(int n) {
-    return n > 0;
-}
+//static bool isPositive(int n) {
+//    return n > 0;
+//}
 
 static void printArray(int *array, int length) {
     for (int i = 0; i < length; i++) {

@@ -35,6 +35,7 @@
 		2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */; };
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
 		4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */; };
+		4D70B54A22E69DB200556D0C /* remove-duplicates-from-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B54922E69DB200556D0C /* remove-duplicates-from-sorted-array.c */; };
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
 		4DB5128C22E5587B00DB8A85 /* merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */; };
 		4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */; };
@@ -109,6 +110,8 @@
 		4D41EB3722DD6E250081EDE4 /* reverse-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "reverse-integer.c"; sourceTree = "<group>"; };
 		4D6F993B22DECD0900F942F5 /* longest-common-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longest-common-prefix.h"; sourceTree = "<group>"; };
 		4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-common-prefix.c"; sourceTree = "<group>"; };
+		4D70B54822E69DB200556D0C /* remove-duplicates-from-sorted-array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remove-duplicates-from-sorted-array.h"; sourceTree = "<group>"; };
+		4D70B54922E69DB200556D0C /* remove-duplicates-from-sorted-array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "remove-duplicates-from-sorted-array.c"; sourceTree = "<group>"; };
 		4D794F7422D7211400F4FCDB /* array-reverse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "array-reverse.h"; sourceTree = "<group>"; };
 		4D794F7522D7211400F4FCDB /* array-reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array-reverse.c"; sourceTree = "<group>"; };
 		4DB5128A22E5587B00DB8A85 /* merge-two-sorted-lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "merge-two-sorted-lists.h"; sourceTree = "<group>"; };
@@ -254,6 +257,8 @@
 				4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */,
 				4DB5128A22E5587B00DB8A85 /* merge-two-sorted-lists.h */,
 				4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */,
+				4D70B54822E69DB200556D0C /* remove-duplicates-from-sorted-array.h */,
+				4D70B54922E69DB200556D0C /* remove-duplicates-from-sorted-array.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2AA5532822E11FE700F93554 /* power.c in Sources */,
 				2A825E0422E4299100FBEBEA /* question-22.c in Sources */,
+				4D70B54A22E69DB200556D0C /* remove-duplicates-from-sorted-array.c in Sources */,
 				4DB5128C22E5587B00DB8A85 /* merge-two-sorted-lists.c in Sources */,
 				2A90824022CDD904009E024A /* stack.c in Sources */,
 				4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */,
