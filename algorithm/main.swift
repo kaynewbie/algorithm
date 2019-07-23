@@ -153,7 +153,9 @@ func testListSwift() {
 
 //testFindKthNodeFormTail()
 
-testMergeTwoLists()
+//testMergeTwoLists()
+
+testRemoveDuplicates()
 
 // 程序执行结束
 group.wait()
