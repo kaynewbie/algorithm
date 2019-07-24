@@ -160,7 +160,8 @@ func testListSwift() {
 //testRemoveElement()
 
 //testStrMethod1()
-testStrMethod2()
+//testStrMethod2()
+testStrMethod3()
 
 // 程序执行结束
 group.wait()
