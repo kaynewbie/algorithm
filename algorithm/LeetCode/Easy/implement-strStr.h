@@ -13,5 +13,6 @@
 
 void testStrMethod1(void);
 void testStrMethod2(void);
+void testStrMethod3(void);
 
 #endif /* implement_strStr_h */

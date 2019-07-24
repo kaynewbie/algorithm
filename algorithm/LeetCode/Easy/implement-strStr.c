@@ -105,6 +105,32 @@ int strStrMethod2(char * haystack, char * needle) {
     return -1;
 }
 
+int strStrMethod3(char * haystack, char * needle) {
+    int offset = 0;
+    char *a, *b;
+    
+    if (!haystack || !needle) {
+        return -1;
+    }
+    while (1) {
+        a = haystack + offset;
+        b = needle;
+        while (*a != '\0' && *b != '\0' && *a == *b) {
+            ++a;
+            ++b;
+        }
+        if (*b == '\0') {
+            return offset;
+        }
+        if (*a == '\0') {
+            return -1;
+        }
+        ++offset;
+    }
+    
+    return -1;
+}
+
 /**
  haystack = "hello"
  needle = "ll"
@@ -194,4 +220,13 @@ void testStrMethod2(void) {
     testStr4(strStrMethod2);
     testStr5(strStrMethod2);
     testStr6(strStrMethod2);
+}
+
+void testStrMethod3(void) {
+    testStr1(strStrMethod3);
+    testStr2(strStrMethod3);
+    testStr3(strStrMethod3);
+    testStr4(strStrMethod3);
+    testStr5(strStrMethod3);
+    testStr6(strStrMethod3);
 }
