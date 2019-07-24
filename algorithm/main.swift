@@ -157,7 +157,10 @@ func testListSwift() {
 
 //testRemoveDuplicates()
 
-testRemoveElement()
+//testRemoveElement()
+
+//testStrMethod1()
+testStrMethod2()
 
 // 程序执行结束
 group.wait()
