@@ -163,7 +163,9 @@ func testListSwift() {
 //testStrMethod2()
 //testStrMethod3()
 
-testSearchInsert()
+//testSearchInsert()
+
+testCountAnSay()
 
 // 程序执行结束
 group.wait()
