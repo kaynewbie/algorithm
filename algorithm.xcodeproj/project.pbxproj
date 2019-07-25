@@ -36,6 +36,7 @@
 		4D03AD5922E7F2760033373A /* implement-strStr.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D03AD5822E7F2760033373A /* implement-strStr.c */; };
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
 		4D42EF3822E9488D0001BDF6 /* search-insert-position.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D42EF3722E9488D0001BDF6 /* search-insert-position.c */; };
+		4D42EF3B22E954AA0001BDF6 /* count-and-say.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D42EF3A22E954AA0001BDF6 /* count-and-say.c */; };
 		4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */; };
 		4D70B54A22E69DB200556D0C /* remove-duplicates-from-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D70B54922E69DB200556D0C /* remove-duplicates-from-sorted-array.c */; };
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
@@ -115,6 +116,8 @@
 		4D41EB3722DD6E250081EDE4 /* reverse-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "reverse-integer.c"; sourceTree = "<group>"; };
 		4D42EF3622E9488D0001BDF6 /* search-insert-position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "search-insert-position.h"; sourceTree = "<group>"; };
 		4D42EF3722E9488D0001BDF6 /* search-insert-position.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "search-insert-position.c"; sourceTree = "<group>"; };
+		4D42EF3922E954AA0001BDF6 /* count-and-say.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "count-and-say.h"; sourceTree = "<group>"; };
+		4D42EF3A22E954AA0001BDF6 /* count-and-say.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "count-and-say.c"; sourceTree = "<group>"; };
 		4D6F993B22DECD0900F942F5 /* longest-common-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "longest-common-prefix.h"; sourceTree = "<group>"; };
 		4D6F993C22DECD0900F942F5 /* longest-common-prefix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "longest-common-prefix.c"; sourceTree = "<group>"; };
 		4D70B54822E69DB200556D0C /* remove-duplicates-from-sorted-array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remove-duplicates-from-sorted-array.h"; sourceTree = "<group>"; };
@@ -274,6 +277,8 @@
 				4D03AD5822E7F2760033373A /* implement-strStr.c */,
 				4D42EF3622E9488D0001BDF6 /* search-insert-position.h */,
 				4D42EF3722E9488D0001BDF6 /* search-insert-position.c */,
+				4D42EF3922E954AA0001BDF6 /* count-and-say.h */,
+				4D42EF3A22E954AA0001BDF6 /* count-and-say.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A476AC222E2FD2600B54349 /* question-19.c in Sources */,
+				4D42EF3B22E954AA0001BDF6 /* count-and-say.c in Sources */,
 				2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */,
 				2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */,
 				2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */,
