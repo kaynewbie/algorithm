@@ -128,7 +128,7 @@ func testListSwift() {
 
 //testRomainToInt()
 
-testLongestCommonPrefix()
+//testLongestCommonPrefix()
 
 //testMaxProduct()
 
@@ -165,7 +165,7 @@ testLongestCommonPrefix()
 
 //testSearchInsert()
 
-//testCountAnSay()
+testCountAnSay()
 
 // 程序执行结束
 group.wait()
