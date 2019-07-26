@@ -8,6 +8,8 @@
 
 #include "count-and-say.h"
 #include "stdlib.h"
+#include "string.h"
+
 /*
  https://leetcode.com/problems/count-and-say/
  */
@@ -33,9 +35,13 @@ char * countAndSay(int n){
     int idx = 0;
     int countForNum;
     int length = 0;
+    char *tmpStr = (char *)malloc(length + 5);
+    memset(tmpStr, 0, length + 5);
     
     for (int i = 1; i < n; i++) {
-        char *tmpStr = calloc(length + 5, sizeof(char));
+        if (i > 1) {
+            tmpStr = calloc(length * 2 + 5, sizeof(char));
+        }
         idx = 0;
         length = 0;
         while (str[idx] != '\0') {
@@ -95,9 +101,19 @@ void testCountAnSay4() {
     printf("level: %d, result: %s\n", n, result);
 }
 
+/**
+ n = 13
+ */
+void testCountAnSay5() {
+    int n = 13;
+    char *result = countAndSay(n);
+    printf("level: %d, result: %s\n", n, result);
+}
+
 void testCountAnSay(void) {
     testCountAnSay1();
     testCountAnSay2();
     testCountAnSay3();
     testCountAnSay4();
+    testCountAnSay5();
 }
