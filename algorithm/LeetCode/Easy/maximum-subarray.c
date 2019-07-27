@@ -22,7 +22,9 @@ int maxSubArray(int* nums, int numsSize){
     if (numsSize <= 0) {
         return 0;
     }
+    // 当前最大值
     int currentSum = nums[0];
+    // 历史最大值
     int max = nums[0];
     for (int i = 1; i < numsSize; i++) {
         /*
