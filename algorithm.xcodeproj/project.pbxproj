@@ -25,6 +25,7 @@
 		2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope.c */; };
 		2A825E0422E4299100FBEBEA /* question-22.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A825E0322E4299100FBEBEA /* question-22.c */; };
 		2A8CE04B22E406F40014786F /* question-21.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CE04A22E406F40014786F /* question-21.c */; };
+		2A8E79A822EC7F3E00576787 /* plus-one.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E79A722EC7F3E00576787 /* plus-one.c */; };
 		2A90824022CDD904009E024A /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A90823F22CDD904009E024A /* stack.c */; };
 		2AA5532822E11FE700F93554 /* power.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5532722E11FE700F93554 /* power.c */; };
 		2AA5532B22E12CB700F93554 /* question-17.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5532A22E12CB700F93554 /* question-17.c */; };
@@ -95,6 +96,8 @@
 		2A825E0322E4299100FBEBEA /* question-22.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-22.c"; sourceTree = "<group>"; };
 		2A8CE04922E406F40014786F /* question-21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-21.h"; sourceTree = "<group>"; };
 		2A8CE04A22E406F40014786F /* question-21.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-21.c"; sourceTree = "<group>"; };
+		2A8E79A622EC7F3E00576787 /* plus-one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plus-one.h"; sourceTree = "<group>"; };
+		2A8E79A722EC7F3E00576787 /* plus-one.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "plus-one.c"; sourceTree = "<group>"; };
 		2A90823E22CDD904009E024A /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		2A90823F22CDD904009E024A /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		2AA5532622E11FE700F93554 /* power.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = power.h; sourceTree = "<group>"; };
@@ -289,6 +292,8 @@
 				2A4897C222EBF8B800AF8B0A /* maximum-subarray.c */,
 				2A0D96CA22EC7B4700B630C5 /* length-of-last-word.h */,
 				2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */,
+				2A8E79A622EC7F3E00576787 /* plus-one.h */,
+				2A8E79A722EC7F3E00576787 /* plus-one.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 				4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */,
 				4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */,
 				4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */,
+				2A8E79A822EC7F3E00576787 /* plus-one.c in Sources */,
 				2A6A4BC422D15EE400D8F62C /* queue.c in Sources */,
 				2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
