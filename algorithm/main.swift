@@ -169,7 +169,9 @@ func testListSwift() {
 
 //testMaxSubarray()
 
-testLengthOfLastWord()
+//testLengthOfLastWord()
+
+testPlusOne()
 
 // 程序执行结束
 group.wait()
