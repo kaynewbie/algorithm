@@ -165,7 +165,9 @@ func testListSwift() {
 
 //testSearchInsert()
 
-testCountAnSay()
+//testCountAnSay()
+
+testMaxSubarray()
 
 // 程序执行结束
 group.wait()
