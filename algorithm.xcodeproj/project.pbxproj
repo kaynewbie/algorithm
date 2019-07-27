@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0D96CC22EC7B4700B630C5 /* length-of-last-word.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */; };
 		2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FE10622E0AE9400F66F6A /* bit-operation.c */; };
 		2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */; };
 		2A24623322D188700091474C /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24623222D188700091474C /* fibonacci.c */; };
@@ -61,6 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A0D96CA22EC7B4700B630C5 /* length-of-last-word.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "length-of-last-word.h"; sourceTree = "<group>"; };
+		2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "length-of-last-word.c"; sourceTree = "<group>"; };
 		2A0FE10522E0AE9400F66F6A /* bit-operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bit-operation.h"; sourceTree = "<group>"; };
 		2A0FE10622E0AE9400F66F6A /* bit-operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bit-operation.c"; sourceTree = "<group>"; };
 		2A1FF2B922DE009400694CC2 /* robot-moving-range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "robot-moving-range.h"; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 				4D42EF3A22E954AA0001BDF6 /* count-and-say.c */,
 				2A4897C122EBF8B800AF8B0A /* maximum-subarray.h */,
 				2A4897C222EBF8B800AF8B0A /* maximum-subarray.c */,
+				2A0D96CA22EC7B4700B630C5 /* length-of-last-word.h */,
+				2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				4D42EF3B22E954AA0001BDF6 /* count-and-say.c in Sources */,
 				2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */,
 				2A3CC0B722C8E7D500896290 /* any-repeat-number-in-array.swift in Sources */,
+				2A0D96CC22EC7B4700B630C5 /* length-of-last-word.c in Sources */,
 				2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */,
 				2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
