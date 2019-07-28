@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A0D96CC22EC7B4700B630C5 /* length-of-last-word.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */; };
 		2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FE10622E0AE9400F66F6A /* bit-operation.c */; };
+		2A116A2A22EE5A6600B7B38F /* climbing-stairs.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A116A2922EE5A6600B7B38F /* climbing-stairs.c */; };
 		2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */; };
 		2A24623322D188700091474C /* fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24623222D188700091474C /* fibonacci.c */; };
 		2A24B60022CD98CA002B40FD /* linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A24B5FF22CD98CA002B40FD /* linked-list.c */; };
@@ -69,6 +70,8 @@
 		2A0D96CB22EC7B4700B630C5 /* length-of-last-word.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "length-of-last-word.c"; sourceTree = "<group>"; };
 		2A0FE10522E0AE9400F66F6A /* bit-operation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bit-operation.h"; sourceTree = "<group>"; };
 		2A0FE10622E0AE9400F66F6A /* bit-operation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bit-operation.c"; sourceTree = "<group>"; };
+		2A116A2822EE5A6600B7B38F /* climbing-stairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "climbing-stairs.h"; sourceTree = "<group>"; };
+		2A116A2922EE5A6600B7B38F /* climbing-stairs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "climbing-stairs.c"; sourceTree = "<group>"; };
 		2A1FF2B922DE009400694CC2 /* robot-moving-range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "robot-moving-range.h"; sourceTree = "<group>"; };
 		2A1FF2BA22DE009400694CC2 /* robot-moving-range.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "robot-moving-range.c"; sourceTree = "<group>"; };
 		2A24623122D188700091474C /* fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fibonacci.h; sourceTree = "<group>"; };
@@ -304,6 +307,8 @@
 				2A6C7B5322ED418300C2C7D1 /* add-binary.c */,
 				2A57B3F322ED690A00A2F604 /* sqrt.h */,
 				2A57B3F422ED690A00A2F604 /* sqrt.c */,
+				2A116A2822EE5A6600B7B38F /* climbing-stairs.h */,
+				2A116A2922EE5A6600B7B38F /* climbing-stairs.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -376,6 +381,7 @@
 				2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2AA5532822E11FE700F93554 /* power.c in Sources */,
+				2A116A2A22EE5A6600B7B38F /* climbing-stairs.c in Sources */,
 				2A825E0422E4299100FBEBEA /* question-22.c in Sources */,
 				4D70B54A22E69DB200556D0C /* remove-duplicates-from-sorted-array.c in Sources */,
 				4D03AD5922E7F2760033373A /* implement-strStr.c in Sources */,
