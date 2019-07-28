@@ -39,3 +39,4 @@
 #include "plus-one.h"
 #include "add-binary.h"
 #include "sqrt.h"
+#include "climbing-stairs.h"
