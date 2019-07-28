@@ -37,3 +37,4 @@
 #include "maximum-subarray.h"
 #include "length-of-last-word.h"
 #include "plus-one.h"
+#include "add-binary.h"

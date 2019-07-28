@@ -171,7 +171,9 @@ func testListSwift() {
 
 //testLengthOfLastWord()
 
-testPlusOne()
+//testPlusOne()
+
+testAddBinary()
 
 // 程序执行结束
 group.wait()
