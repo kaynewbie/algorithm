@@ -173,7 +173,9 @@ func testListSwift() {
 
 //testPlusOne()
 
-testAddBinary()
+//testAddBinary()
+
+testMySqrtMethod2()
 
 // 程序执行结束
 group.wait()
