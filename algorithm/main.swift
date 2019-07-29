@@ -179,7 +179,9 @@ func testListSwift() {
 
 //testClimbStairs()
 
-testRemoveDuplicatesinSortedList()
+//testRemoveDuplicatesinSortedList()
+
+testMergeSortedArray()
 
 // 程序执行结束
 group.wait()

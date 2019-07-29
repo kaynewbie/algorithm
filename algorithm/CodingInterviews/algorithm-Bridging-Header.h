@@ -41,3 +41,4 @@
 #include "sqrt.h"
 #include "climbing-stairs.h"
 #include "remove-duplicates-from-sorted-list.h"
+#include "merge-sorted-array.h"
