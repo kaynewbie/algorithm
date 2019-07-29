@@ -177,7 +177,9 @@ func testListSwift() {
 
 //testMySqrtMethod2()
 
-testClimbStairs()
+//testClimbStairs()
+
+testRemoveDuplicatesinSortedList()
 
 // 程序执行结束
 group.wait()
