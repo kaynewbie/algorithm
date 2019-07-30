@@ -49,6 +49,7 @@
 		4DB5128C22E5587B00DB8A85 /* merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */; };
 		4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */; };
 		4DDC560422EFDECB00B64BE2 /* same-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC560322EFDECB00B64BE2 /* same-tree.c */; };
+		4DDC560722EFE68B00B64BE2 /* symmetric-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC560622EFE68B00B64BE2 /* symmetric-tree.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
 		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
 		4DEFBFBD22EE854300422451 /* remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFBFBC22EE854300422451 /* remove-duplicates-from-sorted-list.c */; };
@@ -151,6 +152,8 @@
 		4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "valid-parentheses.c"; sourceTree = "<group>"; };
 		4DDC560222EFDECB00B64BE2 /* same-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "same-tree.h"; sourceTree = "<group>"; };
 		4DDC560322EFDECB00B64BE2 /* same-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "same-tree.c"; sourceTree = "<group>"; };
+		4DDC560522EFE68B00B64BE2 /* symmetric-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "symmetric-tree.h"; sourceTree = "<group>"; };
+		4DDC560622EFE68B00B64BE2 /* symmetric-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "symmetric-tree.c"; sourceTree = "<group>"; };
 		4DE9D3EB22DDBA2100097FEE /* padrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "padrome-number.h"; sourceTree = "<group>"; };
 		4DE9D3EC22DDBA2100097FEE /* padrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "padrome-number.c"; sourceTree = "<group>"; };
 		4DE9D3EE22DDC11100097FEE /* roman-to-int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roman-to-int.h"; sourceTree = "<group>"; };
@@ -324,6 +327,8 @@
 				4DEFBFBF22EE90E200422451 /* merge-sorted-array.c */,
 				4DDC560222EFDECB00B64BE2 /* same-tree.h */,
 				4DDC560322EFDECB00B64BE2 /* same-tree.c */,
+				4DDC560522EFE68B00B64BE2 /* symmetric-tree.h */,
+				4DDC560622EFE68B00B64BE2 /* symmetric-tree.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2AA5532822E11FE700F93554 /* power.c in Sources */,
+				4DDC560722EFE68B00B64BE2 /* symmetric-tree.c in Sources */,
 				2A116A2A22EE5A6600B7B38F /* climbing-stairs.c in Sources */,
 				2A825E0422E4299100FBEBEA /* question-22.c in Sources */,
 				4D70B54A22E69DB200556D0C /* remove-duplicates-from-sorted-array.c in Sources */,

@@ -8,17 +8,11 @@
 //
 
 #include "same-tree.h"
-#include "stdbool.h"
 
 /*
  https://leetcode.com/problems/same-tree/
  */
 
-struct TreeNode {
-    int val;
-    struct TreeNode *left;
-    struct TreeNode *right;
-};
 
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     if ((p == NULL ^ q == NULL) == 1) {
