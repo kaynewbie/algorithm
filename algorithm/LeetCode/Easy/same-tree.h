@@ -10,6 +10,18 @@
 #define same_tree_h
 
 #include <stdio.h>
+#include "stdbool.h"
+
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+
+/**
+ 两颗树是否相等
+ */
+bool isSameTree(struct TreeNode* p, struct TreeNode* q);
 
 void testIsSameTree(void);
 

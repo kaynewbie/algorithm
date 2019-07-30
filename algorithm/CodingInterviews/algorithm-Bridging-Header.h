@@ -43,3 +43,4 @@
 #include "remove-duplicates-from-sorted-list.h"
 #include "merge-sorted-array.h"
 #include "same-tree.h"
+#include "symmetric-tree.h"
