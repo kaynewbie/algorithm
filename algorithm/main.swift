@@ -181,7 +181,9 @@ func testListSwift() {
 
 //testRemoveDuplicatesinSortedList()
 
-testMergeSortedArray()
+//testMergeSortedArray()
+
+testIsSameTree()
 
 // 程序执行结束
 group.wait()

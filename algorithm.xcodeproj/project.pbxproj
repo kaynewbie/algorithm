@@ -48,6 +48,7 @@
 		4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D794F7522D7211400F4FCDB /* array-reverse.c */; };
 		4DB5128C22E5587B00DB8A85 /* merge-two-sorted-lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */; };
 		4DC96C1822E1635B00BE37E5 /* valid-parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */; };
+		4DDC560422EFDECB00B64BE2 /* same-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC560322EFDECB00B64BE2 /* same-tree.c */; };
 		4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EC22DDBA2100097FEE /* padrome-number.c */; };
 		4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9D3EF22DDC11100097FEE /* roman-to-int.c */; };
 		4DEFBFBD22EE854300422451 /* remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFBFBC22EE854300422451 /* remove-duplicates-from-sorted-list.c */; };
@@ -148,6 +149,8 @@
 		4DB5128B22E5587B00DB8A85 /* merge-two-sorted-lists.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "merge-two-sorted-lists.c"; sourceTree = "<group>"; };
 		4DC96C1622E1635B00BE37E5 /* valid-parentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "valid-parentheses.h"; sourceTree = "<group>"; };
 		4DC96C1722E1635B00BE37E5 /* valid-parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "valid-parentheses.c"; sourceTree = "<group>"; };
+		4DDC560222EFDECB00B64BE2 /* same-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "same-tree.h"; sourceTree = "<group>"; };
+		4DDC560322EFDECB00B64BE2 /* same-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "same-tree.c"; sourceTree = "<group>"; };
 		4DE9D3EB22DDBA2100097FEE /* padrome-number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "padrome-number.h"; sourceTree = "<group>"; };
 		4DE9D3EC22DDBA2100097FEE /* padrome-number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "padrome-number.c"; sourceTree = "<group>"; };
 		4DE9D3EE22DDC11100097FEE /* roman-to-int.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roman-to-int.h"; sourceTree = "<group>"; };
@@ -319,6 +322,8 @@
 				4DEFBFBC22EE854300422451 /* remove-duplicates-from-sorted-list.c */,
 				4DEFBFBE22EE90E200422451 /* merge-sorted-array.h */,
 				4DEFBFBF22EE90E200422451 /* merge-sorted-array.c */,
+				4DDC560222EFDECB00B64BE2 /* same-tree.h */,
+				4DDC560322EFDECB00B64BE2 /* same-tree.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				2AEF491822E3FD8300DB3D80 /* question-20.c in Sources */,
 				2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */,
 				2A24B60022CD98CA002B40FD /* linked-list.c in Sources */,
+				4DDC560422EFDECB00B64BE2 /* same-tree.c in Sources */,
 				2AA5532B22E12CB700F93554 /* question-17.c in Sources */,
 				2A4897C322EBF8B900AF8B0A /* maximum-subarray.c in Sources */,
 				4D794F7622D7211400F4FCDB /* array-reverse.c in Sources */,
