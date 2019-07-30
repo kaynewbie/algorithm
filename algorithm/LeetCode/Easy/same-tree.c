@@ -50,19 +50,6 @@ TreeNode *createATree1() {
     return node1;
 }
 
-/**
- 前序遍历打印二叉树
- */
-static void preOrderRecursive(TreeNode *tree) {
-    if (tree == NULL) {
-        return;
-    }
-    char *format = "%d ";
-    printf(format, tree->val);
-    preOrderRecursive(tree->left);
-    preOrderRecursive(tree->right);
-}
-
 /*
   1     1
  2 3   2 3

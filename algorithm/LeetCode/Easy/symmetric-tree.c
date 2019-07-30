@@ -8,7 +8,7 @@
 
 #include "symmetric-tree.h"
 #include "stdbool.h"
-#include "same-tree.h"
+#include "binary-tree.h"
 
 /*
  https://leetcode.com/problems/symmetric-tree/

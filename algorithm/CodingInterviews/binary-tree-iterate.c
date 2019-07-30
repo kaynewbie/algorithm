@@ -23,7 +23,7 @@
     4           5
  3     10     1   2
  */
-Node *createBinaryTree(void) {
+static Node *createBinaryTree(void) {
     int size = sizeof(Node);
     
     Node *node1 = (Node *)malloc(size);
@@ -194,7 +194,7 @@ void testPostOrderCycle() {
 
 // MARK:- 递归
 // MARK:- 递归实现前序遍历
-void preOrderRecursive(Node *tree) {
+static void preOrderRecursive(Node *tree) {
     if (tree == NULL) {
         return;
     }
@@ -203,6 +203,7 @@ void preOrderRecursive(Node *tree) {
     preOrderRecursive(tree->leftChild);
     preOrderRecursive(tree->rightChild);
 }
+
 void testPreOrderRecursive() {
     Node *tree = createBinaryTree();
     printf("递归打印二叉树前序遍历: ");

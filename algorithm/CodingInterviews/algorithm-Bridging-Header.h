@@ -7,7 +7,6 @@
 #include "binary-tree-iterate.h"
 #include "binary-tree-rebuild.h"
 #include "binary-tree-next-node.h"
-#include "queue.h"
 #include "fibonacci.h"
 #include "binary-search.h"
 #include "quick-sort.h"
@@ -44,3 +43,5 @@
 #include "merge-sorted-array.h"
 #include "same-tree.h"
 #include "symmetric-tree.h"
+#include "maximum-depth-of-binary-tree.h"
+#include "test-binary-tree.h"
