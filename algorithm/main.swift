@@ -183,7 +183,9 @@ func testListSwift() {
 
 //testMergeSortedArray()
 
-testIsSameTree()
+//testIsSameTree()
+
+testBinaryTree()
 
 // 程序执行结束
 group.wait()

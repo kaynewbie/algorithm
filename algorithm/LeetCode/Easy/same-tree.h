@@ -11,12 +11,7 @@
 
 #include <stdio.h>
 #include "stdbool.h"
-
-struct TreeNode {
-    int val;
-    struct TreeNode *left;
-    struct TreeNode *right;
-};
+#include "binary-tree.h"
 
 /**
  两颗树是否相等
