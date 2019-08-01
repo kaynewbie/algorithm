@@ -185,7 +185,9 @@ func testListSwift() {
 
 //testIsSameTree()
 
-testBinaryTree()
+//testBinaryTree()
+
+testMaxDepthInTree()
 
 // 程序执行结束
 group.wait()
