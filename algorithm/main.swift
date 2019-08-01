@@ -197,7 +197,9 @@ func testListSwift() {
 
 //testMirrorBinary()
 
-testPrintMatrixClockwisely()
+//testPrintMatrixClockwisely()
+
+testLevelOrderBottom()
 
 // 程序执行结束
 group.wait()
