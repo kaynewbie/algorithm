@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void testMaxDepthInTree(void);
+
 #endif /* maximum_depth_of_binary_tree_h */
