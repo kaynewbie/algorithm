@@ -46,3 +46,4 @@
 #include "maximum-depth-of-binary-tree.h"
 #include "test-binary-tree.h"
 #include "question-23.h"
+#include "question-24.h"
