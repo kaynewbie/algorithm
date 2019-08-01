@@ -187,11 +187,10 @@ func testListSwift() {
 
 //testBinaryTree()
 
-testMaxDepthInTree()
+//testMaxDepthInTree()
+
+testEntryNodeOfLoop()
 
 // 程序执行结束
 group.wait()
 print("\nFinished!")
-
-
-
