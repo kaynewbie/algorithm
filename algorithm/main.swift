@@ -189,7 +189,9 @@ func testListSwift() {
 
 //testMaxDepthInTree()
 
-testEntryNodeOfLoop()
+//testEntryNodeOfLoop()
+
+testReverseListFunc()
 
 // 程序执行结束
 group.wait()
