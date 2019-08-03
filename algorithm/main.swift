@@ -191,7 +191,9 @@ func testListSwift() {
 
 //testEntryNodeOfLoop()
 
-testReverseListFunc()
+//testReverseListFunc()
+
+testIsSubtree()
 
 // 程序执行结束
 group.wait()
