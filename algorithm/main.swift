@@ -193,7 +193,9 @@ func testListSwift() {
 
 //testReverseListFunc()
 
-testIsSubtree()
+//testIsSubtree()
+
+testMirrorBinary()
 
 // 程序执行结束
 group.wait()
