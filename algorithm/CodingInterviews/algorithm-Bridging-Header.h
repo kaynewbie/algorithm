@@ -47,3 +47,4 @@
 #include "test-binary-tree.h"
 #include "question-23.h"
 #include "question-24.h"
+#include "question-26.h"
