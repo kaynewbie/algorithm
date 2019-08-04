@@ -195,7 +195,9 @@ func testListSwift() {
 
 //testIsSubtree()
 
-testMirrorBinary()
+//testMirrorBinary()
+
+testPrintMatrixClockwisely()
 
 // 程序执行结束
 group.wait()
