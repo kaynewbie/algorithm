@@ -64,6 +64,7 @@
 		4DEFBFBD22EE854300422451 /* remove-duplicates-from-sorted-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFBFBC22EE854300422451 /* remove-duplicates-from-sorted-list.c */; };
 		4DEFBFC022EE90E200422451 /* merge-sorted-array.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFBFBF22EE90E200422451 /* merge-sorted-array.c */; };
 		4DEFCD9822E6AE1B00A34052 /* remove-element.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DEFCD9722E6AE1B00A34052 /* remove-element.c */; };
+		4DFCEB5622F28B5400D97244 /* binary-tree-level-order-traversal-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCEB5522F28B5400D97244 /* binary-tree-level-order-traversal-2.c */; };
 		4DFE472022F12E860044E23F /* queue_internal.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE471C22F12E860044E23F /* queue_internal.c */; };
 		4DFE472122F12E860044E23F /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE471E22F12E860044E23F /* queue.c */; };
 		4DFE472322F12F3B0044E23F /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE472222F12F3B0044E23F /* example.c */; };
@@ -194,6 +195,8 @@
 		4DEFBFBF22EE90E200422451 /* merge-sorted-array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "merge-sorted-array.c"; sourceTree = "<group>"; };
 		4DEFCD9622E6AE1B00A34052 /* remove-element.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remove-element.h"; sourceTree = "<group>"; };
 		4DEFCD9722E6AE1B00A34052 /* remove-element.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "remove-element.c"; sourceTree = "<group>"; };
+		4DFCEB5422F28B5400D97244 /* binary-tree-level-order-traversal-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-tree-level-order-traversal-2.h"; sourceTree = "<group>"; };
+		4DFCEB5522F28B5400D97244 /* binary-tree-level-order-traversal-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-level-order-traversal-2.c"; sourceTree = "<group>"; };
 		4DFE471C22F12E860044E23F /* queue_internal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue_internal.c; sourceTree = "<group>"; };
 		4DFE471D22F12E860044E23F /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		4DFE471E22F12E860044E23F /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
@@ -395,6 +398,8 @@
 				4DDC560622EFE68B00B64BE2 /* symmetric-tree.c */,
 				4DDC560822EFEFBD00B64BE2 /* maximum-depth-of-binary-tree.h */,
 				4DDC560922EFEFBD00B64BE2 /* maximum-depth-of-binary-tree.c */,
+				4DFCEB5422F28B5400D97244 /* binary-tree-level-order-traversal-2.h */,
+				4DFCEB5522F28B5400D97244 /* binary-tree-level-order-traversal-2.c */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -485,6 +490,7 @@
 				4DFE472022F12E860044E23F /* queue_internal.c in Sources */,
 				2A24B60322CDD07F002B40FD /* binary-tree-iterate.c in Sources */,
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
+				4DFCEB5622F28B5400D97244 /* binary-tree-level-order-traversal-2.c in Sources */,
 				2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */,
 				2A436E5D22F3A715005DE0E1 /* question-24.c in Sources */,
 				4DEFCD9822E6AE1B00A34052 /* remove-element.c in Sources */,
