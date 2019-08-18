@@ -199,7 +199,10 @@ func testListSwift() {
 
 //testPrintMatrixClockwisely()
 
-testLevelOrderBottom()
+//testLevelOrderBottom()
+
+//testCreateBinaryLinkedList()
+testReverseBinaryLinkedList()
 
 // 程序执行结束
 group.wait()
