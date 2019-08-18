@@ -29,6 +29,7 @@
 		2A57B3F522ED690A00A2F604 /* sqrt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A57B3F422ED690A00A2F604 /* sqrt.c */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
 		2A6C7B5422ED418300C2C7D1 /* add-binary.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7B5322ED418300C2C7D1 /* add-binary.c */; };
+		2A7A29B72309336E00C80A2A /* binary-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A29B62309336E00C80A2A /* binary-linked-list.c */; };
 		2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope.c */; };
 		2A825E0422E4299100FBEBEA /* question-22.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A825E0322E4299100FBEBEA /* question-22.c */; };
 		2A8CE04B22E406F40014786F /* question-21.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CE04A22E406F40014786F /* question-21.c */; };
@@ -124,6 +125,8 @@
 		2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "queue-support-by-stack.c"; sourceTree = "<group>"; };
 		2A6C7B5222ED418300C2C7D1 /* add-binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "add-binary.h"; sourceTree = "<group>"; };
 		2A6C7B5322ED418300C2C7D1 /* add-binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add-binary.c"; sourceTree = "<group>"; };
+		2A7A29B52309336E00C80A2A /* binary-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-linked-list.h"; sourceTree = "<group>"; };
+		2A7A29B62309336E00C80A2A /* binary-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-linked-list.c"; sourceTree = "<group>"; };
 		2A802C9B22DFD5070096AD3E /* cut-rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cut-rope.h"; sourceTree = "<group>"; };
 		2A802C9C22DFD5070096AD3E /* cut-rope.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cut-rope.c"; sourceTree = "<group>"; };
 		2A825E0222E4299100FBEBEA /* question-22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-22.h"; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				2AE9D61022CC96AE003E6FAB /* merge-arrays.c */,
 				2A24B5FE22CD98CA002B40FD /* linked-list.h */,
 				2A24B5FF22CD98CA002B40FD /* linked-list.c */,
+				2A7A29B52309336E00C80A2A /* binary-linked-list.h */,
+				2A7A29B62309336E00C80A2A /* binary-linked-list.c */,
 				2A24B60122CDD07F002B40FD /* binary-tree-iterate.h */,
 				2A24B60222CDD07F002B40FD /* binary-tree-iterate.c */,
 				2AF60CD022D0752E001B5884 /* binary-tree-rebuild.h */,
@@ -519,6 +524,7 @@
 				4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */,
 				2A8E79A822EC7F3E00576787 /* plus-one.c in Sources */,
 				4DDC560A22EFEFBD00B64BE2 /* maximum-depth-of-binary-tree.c in Sources */,
+				2A7A29B72309336E00C80A2A /* binary-linked-list.c in Sources */,
 				2A28959E22D86ED1005C9132 /* longest-palindromic-substring.c in Sources */,
 				2A24FFCE22C8901D004743CB /* Singleton.swift in Sources */,
 				2A8CE04B22E406F40014786F /* question-21.c in Sources */,
