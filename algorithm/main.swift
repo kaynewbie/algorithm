@@ -202,7 +202,9 @@ func testListSwift() {
 //testLevelOrderBottom()
 
 //testCreateBinaryLinkedList()
-testReverseBinaryLinkedList()
+//testReverseBinaryLinkedList()
+
+testCheckIsPopSequence()
 
 // 程序执行结束
 group.wait()

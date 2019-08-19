@@ -14,7 +14,7 @@
 typedef struct s {
     void *data;//实际存储的日志
     int top;//栈顶索引
-    int totalElements;//栈内元素数量
+    int totalElements;//栈大小
     int memberSize;//存储的元素，类型大小
 }Stack;
 
