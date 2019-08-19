@@ -29,6 +29,7 @@
 		2A57B3F522ED690A00A2F604 /* sqrt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A57B3F422ED690A00A2F604 /* sqrt.c */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
 		2A6C7B5422ED418300C2C7D1 /* add-binary.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7B5322ED418300C2C7D1 /* add-binary.c */; };
+		2A6F5276230AD66B00FF2B97 /* question-39.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F5275230AD66B00FF2B97 /* question-39.c */; };
 		2A7A29B72309336E00C80A2A /* binary-linked-list.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A29B62309336E00C80A2A /* binary-linked-list.c */; };
 		2A802C9D22DFD5070096AD3E /* cut-rope.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A802C9C22DFD5070096AD3E /* cut-rope.c */; };
 		2A825E0422E4299100FBEBEA /* question-22.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A825E0322E4299100FBEBEA /* question-22.c */; };
@@ -127,6 +128,8 @@
 		2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "queue-support-by-stack.c"; sourceTree = "<group>"; };
 		2A6C7B5222ED418300C2C7D1 /* add-binary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "add-binary.h"; sourceTree = "<group>"; };
 		2A6C7B5322ED418300C2C7D1 /* add-binary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "add-binary.c"; sourceTree = "<group>"; };
+		2A6F5274230AD66B00FF2B97 /* question-39.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-39.h"; sourceTree = "<group>"; };
+		2A6F5275230AD66B00FF2B97 /* question-39.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-39.c"; sourceTree = "<group>"; };
 		2A7A29B52309336E00C80A2A /* binary-linked-list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-linked-list.h"; sourceTree = "<group>"; };
 		2A7A29B62309336E00C80A2A /* binary-linked-list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-linked-list.c"; sourceTree = "<group>"; };
 		2A802C9B22DFD5070096AD3E /* cut-rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cut-rope.h"; sourceTree = "<group>"; };
@@ -314,6 +317,8 @@
 				2AECAF00230A06600051C201 /* question-30.c */,
 				4D857D31230A360100EA32D1 /* question-31.h */,
 				4D857D32230A360100EA32D1 /* question-31.c */,
+				2A6F5274230AD66B00FF2B97 /* question-39.h */,
+				2A6F5275230AD66B00FF2B97 /* question-39.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
 				2AE9D60E22CC96AD003E6FAB /* algorithm-Bridging-Header.h */,
 			);
@@ -522,6 +527,7 @@
 				2AD3680F22D62CDE00F719C2 /* binary-search.c in Sources */,
 				4DEFBFBD22EE854300422451 /* remove-duplicates-from-sorted-list.c in Sources */,
 				2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */,
+				2A6F5276230AD66B00FF2B97 /* question-39.c in Sources */,
 				2AE3320D22F52DCC00185AA3 /* question-26.c in Sources */,
 				4DFE472122F12E860044E23F /* queue.c in Sources */,
 				4DDC561122F018BF00B64BE2 /* test-binary-tree.c in Sources */,

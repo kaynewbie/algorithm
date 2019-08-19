@@ -204,7 +204,9 @@ func testListSwift() {
 //testCreateBinaryLinkedList()
 //testReverseBinaryLinkedList()
 
-testCheckIsPopSequence()
+//testCheckIsPopSequence()
+
+testMoreThanHalfNum()
 
 // 程序执行结束
 group.wait()
