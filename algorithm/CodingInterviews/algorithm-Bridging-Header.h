@@ -55,3 +55,4 @@
 #include "question-30.h"
 #include "question-31.h"
 #include "question-39.h"
+#include "question-32.h"

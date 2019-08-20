@@ -206,7 +206,10 @@ func testListSwift() {
 
 //testCheckIsPopSequence()
 
-testMoreThanHalfNum()
+//testMoreThanHalfNum()
+
+testPrintBinaryTreeInLevelOrder()
+testPrintBinaryTreeInLevelOrderWithWrap()
 
 // 程序执行结束
 group.wait()
