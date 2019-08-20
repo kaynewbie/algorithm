@@ -41,6 +41,7 @@
 		2AB4F55022DBECF20028A50C /* backtracking.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4F54F22DBECF20028A50C /* backtracking.c */; };
 		2ABF209C22D1503D00EE24EF /* binary-tree-next-node.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */; };
 		2AD3680F22D62CDE00F719C2 /* binary-search.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3680E22D62CDE00F719C2 /* binary-search.c */; };
+		2AD4F91F230CB01400B7185C /* find-element-count-one-in-n.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */; };
 		2AE3320A22F52D1100185AA3 /* question-25.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3320922F52D1100185AA3 /* question-25.c */; };
 		2AE3320D22F52DCC00185AA3 /* question-26.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3320C22F52DCC00185AA3 /* question-26.c */; };
 		2AE9D61122CC96AE003E6FAB /* merge-arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9D61022CC96AE003E6FAB /* merge-arrays.c */; };
@@ -153,6 +154,8 @@
 		2ABF209B22D1503D00EE24EF /* binary-tree-next-node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-next-node.c"; sourceTree = "<group>"; };
 		2AD3680D22D62CDE00F719C2 /* binary-search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "binary-search.h"; sourceTree = "<group>"; };
 		2AD3680E22D62CDE00F719C2 /* binary-search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-search.c"; sourceTree = "<group>"; };
+		2AD4F91D230CB01400B7185C /* find-element-count-one-in-n.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "find-element-count-one-in-n.h"; sourceTree = "<group>"; };
+		2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "find-element-count-one-in-n.c"; sourceTree = "<group>"; };
 		2AE3320822F52D1100185AA3 /* question-25.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-25.h"; sourceTree = "<group>"; };
 		2AE3320922F52D1100185AA3 /* question-25.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-25.c"; sourceTree = "<group>"; };
 		2AE3320B22F52DCC00185AA3 /* question-26.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-26.h"; sourceTree = "<group>"; };
@@ -252,6 +255,8 @@
 				2A28959B22D86E12005C9132 /* LeetCode */,
 				2A24FFCC22C88F9C004743CB /* CodingInterviews */,
 				2A24FFC522C88F5C004743CB /* main.swift */,
+				2AD4F91D230CB01400B7185C /* find-element-count-one-in-n.h */,
+				2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -545,6 +550,7 @@
 				4D6F993D22DECD0900F942F5 /* longest-common-prefix.c in Sources */,
 				4DFE472322F12F3B0044E23F /* example.c in Sources */,
 				4DE9D3ED22DDBA2100097FEE /* padrome-number.c in Sources */,
+				2AD4F91F230CB01400B7185C /* find-element-count-one-in-n.c in Sources */,
 				4DE9D3F022DDC11100097FEE /* roman-to-int.c in Sources */,
 				2A8E79A822EC7F3E00576787 /* plus-one.c in Sources */,
 				4DDC560A22EFEFBD00B64BE2 /* maximum-depth-of-binary-tree.c in Sources */,

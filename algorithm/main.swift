@@ -208,8 +208,11 @@ func testListSwift() {
 
 //testMoreThanHalfNum()
 
-testPrintBinaryTreeInLevelOrder()
-testPrintBinaryTreeInLevelOrderWithWrap()
+//testPrintBinaryTreeInLevelOrder()
+//testPrintBinaryTreeInLevelOrderWithWrap()
+
+//testCreateMap()
+testFindElementsCountMoreThanOneInN()
 
 // 程序执行结束
 group.wait()
