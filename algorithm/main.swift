@@ -214,7 +214,9 @@ func testListSwift() {
 //testCreateMap()
 //testFindElementsCountMoreThanOneInN()
 
-testMergeTwoBinaryTree()
+//testMergeTwoBinaryTree()
+
+testArrayStepThrough()
 
 // 程序执行结束
 group.wait()
