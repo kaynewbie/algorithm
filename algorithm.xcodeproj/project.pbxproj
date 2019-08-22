@@ -173,6 +173,7 @@
 		2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "binary-tree-rebuild.c"; sourceTree = "<group>"; };
 		4D03AD5722E7F2760033373A /* implement-strStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "implement-strStr.h"; sourceTree = "<group>"; };
 		4D03AD5822E7F2760033373A /* implement-strStr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "implement-strStr.c"; sourceTree = "<group>"; };
+		4D075B20230E2BF200ECC25B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D41EB3622DD6E250081EDE4 /* reverse-integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reverse-integer.h"; sourceTree = "<group>"; };
 		4D41EB3722DD6E250081EDE4 /* reverse-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "reverse-integer.c"; sourceTree = "<group>"; };
 		4D42EF3622E9488D0001BDF6 /* search-insert-position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "search-insert-position.h"; sourceTree = "<group>"; };
@@ -255,8 +256,8 @@
 				2A28959B22D86E12005C9132 /* LeetCode */,
 				2A24FFCC22C88F9C004743CB /* CodingInterviews */,
 				2A24FFC522C88F5C004743CB /* main.swift */,
-				2AD4F91D230CB01400B7185C /* find-element-count-one-in-n.h */,
-				2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */,
+				4D075B1F230E2BC200ECC25B /* Interview-questions */,
+				4D075B20230E2BF200ECC25B /* README.md */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -366,6 +367,15 @@
 				2AF02A9022D692FE00C14446 /* quick-sort.c */,
 			);
 			path = sort;
+			sourceTree = "<group>";
+		};
+		4D075B1F230E2BC200ECC25B /* Interview-questions */ = {
+			isa = PBXGroup;
+			children = (
+				2AD4F91D230CB01400B7185C /* find-element-count-one-in-n.h */,
+				2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */,
+			);
+			path = "Interview-questions";
 			sourceTree = "<group>";
 		};
 		4DDC560B22EFEFD800B64BE2 /* cmmon */ = {
