@@ -50,6 +50,7 @@
 		2AF02A9122D692FE00C14446 /* quick-sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF02A9022D692FE00C14446 /* quick-sort.c */; };
 		2AF60CD222D0752E001B5884 /* binary-tree-rebuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AF60CD122D0752E001B5884 /* binary-tree-rebuild.c */; };
 		4D03AD5922E7F2760033373A /* implement-strStr.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D03AD5822E7F2760033373A /* implement-strStr.c */; };
+		4D075B23230E2DD600ECC25B /* merge-two-binary-tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D075B22230E2DD600ECC25B /* merge-two-binary-tree.c */; };
 		4D41EB3822DD6E250081EDE4 /* reverse-integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D41EB3722DD6E250081EDE4 /* reverse-integer.c */; };
 		4D42EF3822E9488D0001BDF6 /* search-insert-position.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D42EF3722E9488D0001BDF6 /* search-insert-position.c */; };
 		4D42EF3B22E954AA0001BDF6 /* count-and-say.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D42EF3A22E954AA0001BDF6 /* count-and-say.c */; };
@@ -174,6 +175,8 @@
 		4D03AD5722E7F2760033373A /* implement-strStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "implement-strStr.h"; sourceTree = "<group>"; };
 		4D03AD5822E7F2760033373A /* implement-strStr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "implement-strStr.c"; sourceTree = "<group>"; };
 		4D075B20230E2BF200ECC25B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4D075B21230E2DD600ECC25B /* merge-two-binary-tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "merge-two-binary-tree.h"; sourceTree = "<group>"; };
+		4D075B22230E2DD600ECC25B /* merge-two-binary-tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "merge-two-binary-tree.c"; sourceTree = "<group>"; };
 		4D41EB3622DD6E250081EDE4 /* reverse-integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "reverse-integer.h"; sourceTree = "<group>"; };
 		4D41EB3722DD6E250081EDE4 /* reverse-integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "reverse-integer.c"; sourceTree = "<group>"; };
 		4D42EF3622E9488D0001BDF6 /* search-insert-position.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "search-insert-position.h"; sourceTree = "<group>"; };
@@ -374,6 +377,8 @@
 			children = (
 				2AD4F91D230CB01400B7185C /* find-element-count-one-in-n.h */,
 				2AD4F91E230CB01400B7185C /* find-element-count-one-in-n.c */,
+				4D075B21230E2DD600ECC25B /* merge-two-binary-tree.h */,
+				4D075B22230E2DD600ECC25B /* merge-two-binary-tree.c */,
 			);
 			path = "Interview-questions";
 			sourceTree = "<group>";
@@ -512,6 +517,7 @@
 				2A0D96CC22EC7B4700B630C5 /* length-of-last-word.c in Sources */,
 				2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */,
 				2A1FF2BB22DE009400694CC2 /* robot-moving-range.c in Sources */,
+				4D075B23230E2DD600ECC25B /* merge-two-binary-tree.c in Sources */,
 				2A24FFC622C88F5C004743CB /* main.swift in Sources */,
 				2A152EE122F55FC100FB6A40 /* question-27.c in Sources */,
 				2AA5532822E11FE700F93554 /* power.c in Sources */,

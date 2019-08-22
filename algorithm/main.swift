@@ -212,7 +212,9 @@ func testListSwift() {
 //testPrintBinaryTreeInLevelOrderWithWrap()
 
 //testCreateMap()
-testFindElementsCountMoreThanOneInN()
+//testFindElementsCountMoreThanOneInN()
+
+testMergeTwoBinaryTree()
 
 // 程序执行结束
 group.wait()
