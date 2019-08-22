@@ -31,8 +31,14 @@ void printBinaryTreeInLevelOrder(TreeNode *tree);
  */
 void printBinaryTreeInLevelOrderWithWrap(TreeNode *tree);
 
+/*
+ 层序遍历打印二叉树，且按照 S 型打印：偶数层从左往右打印，技术层从右往左打印
+ */
+void printBinaryTreeInLevelOrderInS(TreeNode *tree);
+
 // MARK:- 测试
 void testPrintBinaryTreeInLevelOrder(void);
 void testPrintBinaryTreeInLevelOrderWithWrap(void);
+void testPrintBinaryTreeInLevelOrderInS(void);
 
 #endif /* question_32_h */
