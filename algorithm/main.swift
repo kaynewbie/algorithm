@@ -216,7 +216,9 @@ func testListSwift() {
 
 //testMergeTwoBinaryTree()
 
-testArrayStepThrough()
+//testArrayStepThrough()
+
+testArrayCanBeKEqualDivision()
 
 // 程序执行结束
 group.wait()
