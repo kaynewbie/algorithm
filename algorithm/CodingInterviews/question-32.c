@@ -72,8 +72,8 @@ void printBinaryTreeInLevelOrderWithWrap(TreeNode *tree) {
  借助两个栈实现，奇数层入栈顺序从右往左，偶数层入栈顺序从左往右
  */
 void printBinaryTreeInLevelOrderInS(TreeNode *tree) {
-    Stack *oddStack = createStack(sizeof(int), 100);// 偶数层栈
-    Stack *evenStack = createStack(sizeof(int), 100);// 奇数层栈
+    Stack *oddStack = createStack(sizeof(TreeNode), 20);// 偶数层栈
+    Stack *evenStack = createStack(sizeof(TreeNode), 20);// 奇数层栈
     
     int toBePrint;// 当前层剩余需要打印的节点数
     int nextLevelCount;// 下一层节点数
@@ -90,7 +90,7 @@ void printBinaryTreeInLevelOrderInS(TreeNode *tree) {
         TreeNode *currentNode = malloc(sizeof(TreeNode));
         currentStack = oddOrEven == 0 ? evenStack : oddStack;
         nextStack = oddOrEven == 0 ? oddStack : evenStack;
-        stackPop(currentStack, &currentNode);
+        stackPop(currentStack, currentNode);
         // 打印当前元素值
         printf("%d ", currentNode->val);
         // 下一层元素入栈
@@ -101,7 +101,7 @@ void printBinaryTreeInLevelOrderInS(TreeNode *tree) {
             printf("\n");
             oddOrEven ^= 1;// 切换层次
         }
-    } while ((oddStack->top < 0) && (evenStack->top < 0));
+    } while ((oddStack->top >= 0) || (evenStack->top >= 0));
     printf("\n");
 }
 
@@ -155,8 +155,16 @@ void testPrintBinaryTreeInLevelOrderWithWrap(void) {
 // MARK:- 测试方法三
 
 void testPrintBinaryTreeInLevelOrderInS1(void) {
-    const int length = 5;
-    int nums[length] = {1, 2, 0, 4, 5};
+    const int length = 15;
+    int nums[length] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+    TreeNode *tree = createBinaryTree(nums, length);
+    printf("二叉树层序遍历：\n");
+    printBinaryTreeInLevelOrderInS(tree);
+}
+
+void testPrintBinaryTreeInLevelOrderInS2(void) {
+    const int length = 13;
+    int nums[length] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
     TreeNode *tree = createBinaryTree(nums, length);
     printf("二叉树层序遍历：\n");
     printBinaryTreeInLevelOrderInS(tree);
@@ -164,4 +172,5 @@ void testPrintBinaryTreeInLevelOrderInS1(void) {
 
 void testPrintBinaryTreeInLevelOrderInS(void) {
     testPrintBinaryTreeInLevelOrderInS1();
+    testPrintBinaryTreeInLevelOrderInS2();
 }

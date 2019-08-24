@@ -32,6 +32,7 @@ int expandStack(Stack* s) {
 }
 
 int stackPush(Stack *s,  void *data) {
+    if (data == NULL) return 1;
     //check is the stack is full
     if (s->top == s->totalElements - 1) {
         //if full, call expand function to expand the size of the stack
