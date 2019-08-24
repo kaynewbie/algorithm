@@ -210,7 +210,7 @@ func testListSwift() {
 
 //testPrintBinaryTreeInLevelOrder()
 //testPrintBinaryTreeInLevelOrderWithWrap()
-testPrintBinaryTreeInLevelOrderInS()
+//testPrintBinaryTreeInLevelOrderInS()
 
 //testCreateMap()
 //testFindElementsCountMoreThanOneInN()
@@ -220,6 +220,8 @@ testPrintBinaryTreeInLevelOrderInS()
 //testArrayStepThrough()
 
 //testArrayCanBeKEqualDivision()
+
+testIsPostOrderOfBST()
 
 // 程序执行结束
 group.wait()
