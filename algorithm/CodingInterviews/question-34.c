@@ -87,9 +87,9 @@ int sumOfCustomArray(CustomArray *ary) {
 
 /*
  借助辅助数组，遍历每个节点，分两种情况：
-    1）节点为空，判断数组和是否等于目标值，是，则打印数组，否则返回
+    1）节点为空，则返回
     2）节点不为空，将节点值拼接到数组末尾
- 递归节点的左右子节点，并在最后将当前节点值从数组末尾移除
+ 如果当前节点是叶子节点，则判断数组和是否等于目标值，否则递归节点的左右子节点，并在最后将当前节点值从数组末尾移除
  */
 void sumOfNodesInPathEqualsToValueCore(TreeNode *tree, int target, CustomArray *ary) {
     if (tree == NULL) return;
