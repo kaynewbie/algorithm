@@ -27,6 +27,7 @@
 		2A4897C322EBF8B900AF8B0A /* maximum-subarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A4897C222EBF8B800AF8B0A /* maximum-subarray.c */; };
 		2A52724422F6A6AA009983EC /* question-28.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A52724322F6A6AA009983EC /* question-28.c */; };
 		2A52724722F6A76E009983EC /* question-29.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A52724622F6A76E009983EC /* question-29.c */; };
+		2A5495E82312783000202048 /* question-34.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A5495E72312783000202048 /* question-34.c */; };
 		2A57B3F522ED690A00A2F604 /* sqrt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A57B3F422ED690A00A2F604 /* sqrt.c */; };
 		2A6A4BC122D15B5000D8F62C /* queue-support-by-stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A4BC022D15B5000D8F62C /* queue-support-by-stack.c */; };
 		2A6C7B5422ED418300C2C7D1 /* add-binary.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C7B5322ED418300C2C7D1 /* add-binary.c */; };
@@ -130,6 +131,8 @@
 		2A52724322F6A6AA009983EC /* question-28.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-28.c"; sourceTree = "<group>"; };
 		2A52724522F6A76E009983EC /* question-29.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-29.h"; sourceTree = "<group>"; };
 		2A52724622F6A76E009983EC /* question-29.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-29.c"; sourceTree = "<group>"; };
+		2A5495E62312783000202048 /* question-34.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "question-34.h"; sourceTree = "<group>"; };
+		2A5495E72312783000202048 /* question-34.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "question-34.c"; sourceTree = "<group>"; };
 		2A57B3F322ED690A00A2F604 /* sqrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sqrt.h; sourceTree = "<group>"; };
 		2A57B3F422ED690A00A2F604 /* sqrt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sqrt.c; sourceTree = "<group>"; };
 		2A6A4BBF22D15B5000D8F62C /* queue-support-by-stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "queue-support-by-stack.h"; sourceTree = "<group>"; };
@@ -340,6 +343,8 @@
 				4DB819E2230B824600068E0F /* question-32.c */,
 				2A11A0482310C50800107999 /* question-33.h */,
 				2A11A0492310C50800107999 /* question-33.c */,
+				2A5495E62312783000202048 /* question-34.h */,
+				2A5495E72312783000202048 /* question-34.c */,
 				2A6F5274230AD66B00FF2B97 /* question-39.h */,
 				2A6F5275230AD66B00FF2B97 /* question-39.c */,
 				2AF02A8E22D692E800C14446 /* sort */,
@@ -554,6 +559,7 @@
 				2A40413C22CB3660007B4036 /* find-in-two-dimension-matrix.swift in Sources */,
 				4DFCEB5622F28B5400D97244 /* binary-tree-level-order-traversal-2.c in Sources */,
 				2A0FE10722E0AE9400F66F6A /* bit-operation.c in Sources */,
+				2A5495E82312783000202048 /* question-34.c in Sources */,
 				2A436E5D22F3A715005DE0E1 /* question-24.c in Sources */,
 				4DEFCD9822E6AE1B00A34052 /* remove-element.c in Sources */,
 				2AB4F55022DBECF20028A50C /* backtracking.c in Sources */,

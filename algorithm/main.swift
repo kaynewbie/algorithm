@@ -221,7 +221,9 @@ func testListSwift() {
 
 //testArrayCanBeKEqualDivision()
 
-testIsPostOrderOfBST()
+//testIsPostOrderOfBST()
+
+testSumOfNodesInPathEqualsToValue()
 
 // 程序执行结束
 group.wait()

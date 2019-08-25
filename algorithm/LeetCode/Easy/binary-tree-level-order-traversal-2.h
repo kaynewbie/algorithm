@@ -10,7 +10,9 @@
 #define binary_tree_level_order_traversal_2_h
 
 #include <stdio.h>
+#include "binary-tree.h"
 
 void testLevelOrderBottom(void);
+int height(TreeNode *tree);
 
 #endif /* binary_tree_level_order_traversal_2_h */

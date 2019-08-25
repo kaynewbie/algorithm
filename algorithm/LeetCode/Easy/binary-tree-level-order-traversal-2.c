@@ -7,7 +7,6 @@
 //
 
 #include "binary-tree-level-order-traversal-2.h"
-#include "binary-tree.h"
 #include <stdlib.h>
 #include <math.h>
 
