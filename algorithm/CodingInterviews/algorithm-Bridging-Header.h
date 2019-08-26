@@ -62,3 +62,4 @@
 #include "array-k-equal-division.h"
 #include "question-33.h"
 #include "question-34.h"
+#include "convert-sorted-array-to-binary-search-tree.h"
