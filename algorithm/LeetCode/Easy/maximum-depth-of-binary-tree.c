@@ -12,10 +12,6 @@
 #define MAX(x, y) ((x > y) ? x : y)
 int depthInTree(TreeNode *tree, int depth);
 
-int maxDepth(struct TreeNode* root){
-    return depthInTree(root, 0);
-}
-
 int depthInTree(TreeNode *tree, int depth) {
     if (tree == NULL) {
         return depth;
