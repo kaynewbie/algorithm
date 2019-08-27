@@ -12,6 +12,8 @@
 #include "stdbool.h"
 
 DEFINE_Q_GET(queue_get_tree_node, TreeNode *)
+#define MAX(x, y) ((x > y) ? x : y)
+#define MIN(x, y) ((x < y) ? x : y)
 
 /**
  借助队列，实现按照层序创建二叉树，元素为 0 则表示该节点为空。
@@ -56,6 +58,20 @@ TreeNode *createBinaryTree(int *elements, int size) {
         idx++;
     }
     return head;
+}
+
+int maxDepth(TreeNode *tree) {
+    if (tree == NULL) return 0;
+    int lHeight = maxDepth(tree->left);
+    int rHeight = maxDepth(tree->right);
+    return MAX(lHeight, rHeight) + 1;
+}
+
+int minDepth(TreeNode *tree) {
+    if (tree == NULL) return 0;
+    int lHeight = minDepth(tree->left);
+    int rHeight = minDepth(tree->right);
+    return MIN(lHeight, rHeight) + 1;
 }
 
 /**

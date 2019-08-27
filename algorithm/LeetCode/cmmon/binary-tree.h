@@ -20,6 +20,10 @@ struct TreeNode {
 typedef struct TreeNode TreeNode;
 
 TreeNode *createBinaryTree(int *elements, int size);
+
+int maxDepth(TreeNode *tree);
+int minDepth(TreeNode *tree);
+
 void preOrderRecursive(TreeNode *tree);
 
 #endif /* binary_tree_h */

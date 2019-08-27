@@ -225,7 +225,9 @@ func testListSwift() {
 
 //testSumOfNodesInPathEqualsToValue()
 
-testSortedArrayToBST()
+//testSortedArrayToBST()
+
+testIsBalanced()
 
 // 程序执行结束
 group.wait()
