@@ -64,3 +64,4 @@
 #include "question-34.h"
 #include "convert-sorted-array-to-binary-search-tree.h"
 #include "question-110-balanced-binary-tree.h"
+#include "binary-tree.h"
