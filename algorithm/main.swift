@@ -223,13 +223,13 @@ func testListSwift() {
 
 //testIsPostOrderOfBST()
 
-//testSumOfNodesInPathEqualsToValue()
+testSumOfNodesInPathEqualsToValue()
 
 //testSortedArrayToBST()
 
 //testIsBalanced()
 
-testDepth()
+//testDepth()
 
 // 程序执行结束
 group.wait()
