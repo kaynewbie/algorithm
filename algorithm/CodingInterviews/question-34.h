@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include "binary-tree.h"
+#include <stdbool.h>
 
 /**
  二叉树中和为某一个值的所有路径（路径为从跟节点到一个叶子节点）

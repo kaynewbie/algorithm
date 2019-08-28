@@ -22,6 +22,7 @@ void arrayPop(CustomArray *ary);
 void printCustomArray(CustomArray *ary);
 int sumOfCustomArray(CustomArray *ary);
 void sumOfNodesInPathEqualsToValueCore(TreeNode *tree, int target, CustomArray *ary);
+bool hasPathSumCore(TreeNode *tree, int target, CustomArray *ary);
 
 void sumOfNodesInPathEqualsToValue(TreeNode *tree, int target) {
     if (tree == NULL) return;
@@ -30,6 +31,15 @@ void sumOfNodesInPathEqualsToValue(TreeNode *tree, int target) {
     CustomArray *ary = createCustomArray(treeH);
     
     sumOfNodesInPathEqualsToValueCore(tree, target, ary);
+}
+
+bool hasPathSum(struct TreeNode* root, int sum) {
+    if (root == NULL) return false;
+    
+    int treeH = height(root);
+    CustomArray *ary = createCustomArray(treeH);
+    
+    return hasPathSumCore(root, sum, ary);
 }
 
 // MARK:- 辅助函数
@@ -99,11 +109,26 @@ void sumOfNodesInPathEqualsToValueCore(TreeNode *tree, int target, CustomArray *
         if (sumOfCustomArray(ary) == target) {
             printCustomArray(ary);
         }
-    } else {
-        sumOfNodesInPathEqualsToValueCore(tree->left, target, ary);
-        sumOfNodesInPathEqualsToValueCore(tree->right, target, ary);
     }
+    sumOfNodesInPathEqualsToValueCore(tree->left, target, ary);
+    sumOfNodesInPathEqualsToValueCore(tree->right, target, ary);
+    
     arrayPop(ary);
+}
+
+bool hasPathSumCore(TreeNode *tree, int target, CustomArray *ary) {
+    if (tree == NULL) return false;
+    arrayPush(ary, tree->val);
+    
+    if (tree->left == NULL && tree->right == NULL) {
+        if (sumOfCustomArray(ary) == target) return true;
+    }
+    bool result = hasPathSumCore(tree->left, target, ary)
+    || hasPathSumCore(tree->right, target, ary);
+    
+    arrayPop(ary);
+    
+    return result;
 }
 
 // MARK:- 测试函数
@@ -115,6 +140,8 @@ void testSumOfNodesInPathEqualsToValue1(void) {
     TreeNode *tree = createBinaryTree(nums, size);
     printf("%s\n", __func__);
     sumOfNodesInPathEqualsToValue(tree, value);
+    bool result = hasPathSum(tree, value);
+    printf("%s\n", result ? "has" : "has not");
 }
 
 void testSumOfNodesInPathEqualsToValue2(void) {
@@ -124,6 +151,8 @@ void testSumOfNodesInPathEqualsToValue2(void) {
     TreeNode *tree = createBinaryTree(nums, size);
     printf("%s\n", __func__);
     sumOfNodesInPathEqualsToValue(tree, value);
+    bool result = hasPathSum(tree, value);
+    printf("%s\n", result ? "has" : "has not");
 }
 
 void testSumOfNodesInPathEqualsToValue3(void) {
@@ -133,6 +162,8 @@ void testSumOfNodesInPathEqualsToValue3(void) {
     TreeNode *tree = createBinaryTree(nums, size);
     printf("%s\n", __func__);
     sumOfNodesInPathEqualsToValue(tree, value);
+    bool result = hasPathSum(tree, value);
+    printf("%s\n", result ? "has" : "has not");
 }
 
 void testSumOfNodesInPathEqualsToValue4(void) {
@@ -142,6 +173,8 @@ void testSumOfNodesInPathEqualsToValue4(void) {
     TreeNode *tree = createBinaryTree(nums, size);
     printf("%s\n", __func__);
     sumOfNodesInPathEqualsToValue(tree, value);
+    bool result = hasPathSum(tree, value);
+    printf("%s\n", result ? "has" : "has not");
 }
 
 void testSumOfNodesInPathEqualsToValue(void) {
