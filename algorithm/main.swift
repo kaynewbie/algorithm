@@ -227,7 +227,9 @@ func testListSwift() {
 
 //testSortedArrayToBST()
 
-testIsBalanced()
+//testIsBalanced()
+
+testDepth()
 
 // 程序执行结束
 group.wait()

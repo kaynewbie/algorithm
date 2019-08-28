@@ -26,4 +26,7 @@ int minDepth(TreeNode *tree);
 
 void preOrderRecursive(TreeNode *tree);
 
+// MARK:- 测试
+void testDepth(void);
+
 #endif /* binary_tree_h */
