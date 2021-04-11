@@ -85,7 +85,7 @@ func testListSwift() {
 
 //testURLEncode()
 
-//testListSwift()
+testListSwift()
 
 //testPreOrderCycle()
 //print("\n")
@@ -223,7 +223,7 @@ func testListSwift() {
 
 //testIsPostOrderOfBST()
 
-testSumOfNodesInPathEqualsToValue()
+//testSumOfNodesInPathEqualsToValue()
 
 //testSortedArrayToBST()
 

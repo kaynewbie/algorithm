@@ -23,6 +23,8 @@ void testList(void);
 ListNode *reverseList(ListNode **list);
 void printList(ListNode *list);
 ListNode *insertNode(ListNode **p, int value);
+/// 寻找链表末尾节点
+ListNode *findLast(ListNode *list);
 
 void testReverseSingleDirectionList(void);
 void testDeleteNode(void);

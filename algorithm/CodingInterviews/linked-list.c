@@ -10,6 +10,12 @@
 #include "stdbool.h"
 #include "stdlib.h"
 
+void testFormat1();
+void testFormat2();
+void testFormat3();
+void testFormat4();
+void testFormat5();
+void testFormat6();
 
 /**
  打印链表
@@ -49,6 +55,83 @@ ListNode *insertNode(ListNode **p, int value) {
         currentNode->next = newNode;
     }
     return newNode;
+}
+
+ListNode *findLast(ListNode *list) {
+    if (list == NULL) {
+        return NULL;
+    }
+    while (list->next) {
+        list = list->next;
+    }
+    return list;
+}
+
+/// 找到队尾节点并删除
+/// @param list 单向链表
+//ListNode *findAndRemoveLast(ListNode *list) {
+//    if (list == NULL) {
+//        return NULL;
+//    }
+//
+//    return NULL;
+//}
+
+/// 从单向链表中，寻找目标节点的前一个节点。如果目标节点是第一个，则返回空。
+/// @param list 单向链表
+/// @param target 链表中的指定节点
+ListNode *findPreviousNodeOfTarget(ListNode *list, ListNode *target) {
+    if (list == NULL) {
+        return NULL;
+    }
+    ListNode *previous;
+    ListNode *current;
+    previous = NULL;
+    current = list;
+    
+    if (target == NULL) {
+        return findLast(list);
+    }
+    
+    while (current->next && current != target) {
+        previous = current;
+        current = current->next;
+    }
+    
+    return previous;
+}
+
+/// 单向链表重新排序
+/// 给定 L0->L1->L2->...->Ln-1->Ln，将其重新排列为L0->Ln->L1->Ln-1->L2->Ln-2...
+/// 解法如下：时间复杂度 O(n^2)，空间复杂度 O(n)
+ListNode *formatList(ListNode *list) {
+    ListNode *result = NULL;
+    
+    ListNode *currentList;
+    ListNode *head;
+    ListNode *tail;
+    currentList = list;
+    tail = NULL;
+    
+    /// 循环获取链表第一个和最后一个节点，两个节点往中间逼近，直到相遇
+    while (currentList && currentList != tail) {
+        /// 获取头节点，插入到新链表的末尾
+        head = currentList;
+        insertNode(&result, head->value);
+        /// currentList 往后移动
+        currentList = currentList->next;
+        if (currentList == NULL) {
+            break;
+        }
+        /// 获取尾节点，插入到新链表的末尾
+        tail = findPreviousNodeOfTarget(currentList, tail);
+        if (tail == NULL) {
+            break;
+        }
+        insertNode(&result, tail->value);
+    }
+    
+    return result;
 }
 
 /**
@@ -94,23 +177,12 @@ bool findFirst(ListNode *list, int value) {
 }
 
 void testList(void) {
-    ListNode *list = NULL;
-    ListNode **p = &list;
-    
-    insertNode(p, 23);
-    insertNode(p, 24);
-    insertNode(p, 6);
-    
-    printList(list);
-    
-    printf("--------- after delete -------------\n");
-    
-    removeNode(p, 23);
-    removeNode(p, 24);
-    removeNode(p, 6);
-    removeNode(p, 61);
-    
-    printList(list);
+    testFormat1();
+    testFormat2();
+    testFormat3();
+    testFormat4();
+    testFormat5();
+    testFormat6();
 }
 
 ListNode *reverseListCore(ListNode *node, ListNode **head) {
@@ -243,4 +315,150 @@ void testReverseSingleDirectionList2() {
 void testReverseSingleDirectionList(void) {
     testReverseSingleDirectionList1();
     testReverseSingleDirectionList2();
+}
+
+#pragma mark - 单向链表按照指定规则重排
+
+void testFormat1() {
+    printf("--------- begin test -------------\n");
+
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    insertNode(p, 1);
+    insertNode(p, 2);
+    insertNode(p, 3);
+    insertNode(p, 4);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+    list = formatList(list);
+    
+    printList(list);
+    
+    printf("--------- end test -------------\n");
+}
+
+/// 1 7 2 6 3 5 4
+void testFormat2() {
+    printf("--------- begin test -------------\n");
+
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    insertNode(p, 1);
+    insertNode(p, 2);
+    insertNode(p, 3);
+    insertNode(p, 4);
+    insertNode(p, 5);
+    insertNode(p, 6);
+    insertNode(p, 7);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+    list = formatList(list);
+    
+    printList(list);
+    printf("--------- end test -------------\n");
+
+}
+
+/// 1
+void testFormat3() {
+    printf("--------- begin test -------------\n");
+    
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    insertNode(p, 1);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+    list = formatList(list);
+    
+    printList(list);
+    printf("--------- end test -------------\n");
+}
+
+/// null
+void testFormat4() {
+    printf("--------- begin test -------------\n");
+    
+    ListNode *list = NULL;
+//    ListNode **p = &list;
+    
+//    insertNode(p, 1);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+//    list = formatList(list);
+    
+    printList(list);
+    
+    printf("--------- end test -------------\n");
+}
+
+void testFormat5() {
+    printf("--------- begin test -------------\n");
+
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    insertNode(p, 1);
+    insertNode(p, 2);
+    insertNode(p, 3);
+    insertNode(p, 4);
+    insertNode(p, 5);
+    insertNode(p, 6);
+    insertNode(p, 7);
+    insertNode(p, 8);
+    insertNode(p, 9);
+    insertNode(p, 10);
+    insertNode(p, 11);
+    insertNode(p, 12);
+    insertNode(p, 13);
+    insertNode(p, 14);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+    list = formatList(list);
+    
+    printList(list);
+    printf("--------- end test -------------\n");
+
+}
+
+void testFormat6() {
+    printf("--------- begin test -------------\n");
+
+    ListNode *list = NULL;
+    ListNode **p = &list;
+    
+    insertNode(p, 1);
+    insertNode(p, 2);
+    insertNode(p, 3);
+    insertNode(p, 4);
+    insertNode(p, 3);
+    insertNode(p, 2);
+    insertNode(p, 1);
+    
+    printList(list);
+    
+    printf("--------- after format -------------\n");
+    
+    list = formatList(list);
+    
+    printList(list);
+    printf("--------- end test -------------\n");
+
 }
